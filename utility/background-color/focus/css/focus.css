@@ -1,0 +1,59 @@
+.focus\:bg-main:focus {
+  background-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-spare:focus {
+  background-color: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-extra:focus {
+  background-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-placeholder:focus {
+  background-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-disabled:focus {
+  background-color: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-inverse:focus {
+  background-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-info:focus {
+  background-color: rgba(var(--sf-blue-1r), var(--sf-blue-1g), var(--sf-blue-1b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-success:focus {
+  background-color: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-warning:focus {
+  background-color: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-danger:focus {
+  background-color: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-white:focus {
+  background-color: rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-black:focus {
+  background-color: rgba(var(--sf-black-r), var(--sf-black-g), var(--sf-black-b), var(--sf-bg--alfa));
+}
+
+.focus\:bg-inherit:focus {
+  background-color: inherit;
+}
+
+.focus\:bg-transparent:focus {
+  background-color: var(--sf-transparent);
+}
+
+.focus\:bg-current:focus {
+  background-color: currentColor;
+}

@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .md\:opacity-1 {
+    filter: opacity(0.1);
+  }
+  .md\:opacity-2 {
+    filter: opacity(0.2);
+  }
+  .md\:opacity-3 {
+    filter: opacity(0.3);
+  }
+  .md\:opacity-4 {
+    filter: opacity(0.4);
+  }
+  .md\:opacity-5 {
+    filter: opacity(0.5);
+  }
+  .md\:opacity-6 {
+    filter: opacity(0.6);
+  }
+  .md\:opacity-7 {
+    filter: opacity(0.7);
+  }
+  .md\:opacity-8 {
+    filter: opacity(0.8);
+  }
+  .md\:opacity-9 {
+    filter: opacity(0.9);
+  }
+  .md\:opacity-0 {
+    filter: opacity(0);
+  }
+  .md\:opacity-full {
+    filter: opacity(1);
+  }
+}

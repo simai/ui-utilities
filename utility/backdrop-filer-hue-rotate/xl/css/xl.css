@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+  .xl\:backdrop-hue-rotate-1, .xl\:backdrop-hue-rotate-2, .xl\:backdrop-hue-rotate-3, .xl\:backdrop-hue-rotate-4, .xl\:backdrop-hue-rotate-5, .xl\:backdrop-hue-rotate-0 {
+    --sf-backdrop-blur: ;
+    --sf-backdrop-brightness: ;
+    --sf-backdrop-contrast: ;
+    --sf-backdrop-grayscale: ;
+    --sf-backdrop-hue-rotate: ;
+    --sf-backdrop-invert: ;
+    --sf-backdrop-opacity: ;
+    --sf-backdrop-saturate: ;
+    --sf-backdrop-sepia: ;
+    backdrop-filter: var(--sf-backdrop-blur) var(--sf-backdrop-brightness) var(--sf-backdrop-contrast) var(--sf-backdrop-grayscale) var(--sf-backdrop-hue-rotate) var(--sf-backdrop-invert) var(--sf-backdrop-opacity) var(--sf-backdrop-saturate) var(--sf-backdrop-sepia);
+  }
+  .xl\:backdrop-hue-rotate-1 {
+    --sf-backdrop-hue-rotate: hue-rotate(15deg);
+  }
+  .xl\:backdrop-hue-rotate-2 {
+    --sf-backdrop-hue-rotate: hue-rotate(30deg);
+  }
+  .xl\:backdrop-hue-rotate-3 {
+    --sf-backdrop-hue-rotate: hue-rotate(60deg);
+  }
+  .xl\:backdrop-hue-rotate-4 {
+    --sf-backdrop-hue-rotate: hue-rotate(90deg);
+  }
+  .xl\:backdrop-hue-rotate-5 {
+    --sf-backdrop-hue-rotate: hue-rotate(180deg);
+  }
+  .xl\:backdrop-hue-rotate-0 {
+    --sf-backdrop-hue-rotate: hue-rotate(0deg);
+  }
+}

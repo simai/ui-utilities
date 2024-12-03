@@ -1,0 +1,43 @@
+.active\:color-opacity-1:active {
+  --sf-color--alfa: 0.1;
+}
+
+.active\:color-opacity-2:active {
+  --sf-color--alfa: 0.2;
+}
+
+.active\:color-opacity-3:active {
+  --sf-color--alfa: 0.3;
+}
+
+.active\:color-opacity-4:active {
+  --sf-color--alfa: 0.4;
+}
+
+.active\:color-opacity-5:active {
+  --sf-color--alfa: 0.5;
+}
+
+.active\:color-opacity-6:active {
+  --sf-color--alfa: 0.6;
+}
+
+.active\:color-opacity-7:active {
+  --sf-color--alfa: 0.7;
+}
+
+.active\:color-opacity-8:active {
+  --sf-color--alfa: 0.8;
+}
+
+.active\:color-opacity-9:active {
+  --sf-color--alfa: 0.9;
+}
+
+.active\:color-opacity-0:active {
+  --sf-color--alfa: 0;
+}
+
+.active\:color-opacity-full:active {
+  --sf-color--alfa: 1;
+}

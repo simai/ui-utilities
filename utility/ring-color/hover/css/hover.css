@@ -1,0 +1,59 @@
+.hover\:ring-main:hover {
+  --sf-ring-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-spare:hover {
+  --sf-ring-color: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-extra:hover {
+  --sf-ring-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-placeholder:hover {
+  --sf-ring-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-disabled:hover {
+  --sf-ring-color: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-inverse:hover {
+  --sf-ring-color: rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-info:hover {
+  --sf-ring-color: rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-success:hover {
+  --sf-ring-color: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-warning:hover {
+  --sf-ring-color: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-danger:hover {
+  --sf-ring-color: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-ring--alfa));
+}
+
+.hover\:ring-white:hover {
+  --sf-ring-color: rgba(var(--sf-white-default), var(--sf-white-default), var(--sf-white-default), var(--sf-ring--alfa));
+}
+
+.hover\:ring-black:hover {
+  --sf-ring-color: rgba(var(--sf-black-default), var(--sf-black-default), var(--sf-black-default), var(--sf-ring--alfa));
+}
+
+.hover\:ring-inherit:hover {
+  --sf-ring-color: inherit;
+}
+
+.hover\:ring-transparent:hover {
+  --sf-ring-color: var(--sf-transparent);
+}
+
+.hover\:ring-current:hover {
+  --sf-ring-color: currentColor;
+}

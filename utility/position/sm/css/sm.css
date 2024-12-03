@@ -1,0 +1,12 @@
+@media (min-width: 540px) {
+  .sm\:static {
+    position: static; }
+  .sm\:fixed {
+    position: fixed; }
+  .sm\:absolute {
+    position: absolute; }
+  .sm\:relative {
+    position: relative; }
+  .sm\:sticky {
+    position: sticky; } }
+

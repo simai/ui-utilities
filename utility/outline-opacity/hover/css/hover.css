@@ -1,0 +1,43 @@
+.hover\:outline-opacity-1:hover {
+  --sf-outline--alfa:0.1;
+}
+
+.hover\:outline-opacity-2:hover {
+  --sf-outline--alfa:0.2;
+}
+
+.hover\:outline-opacity-3:hover {
+  --sf-outline--alfa:0.3;
+}
+
+.hover\:outline-opacity-4:hover {
+  --sf-outline--alfa:0.4;
+}
+
+.hover\:outline-opacity-5:hover {
+  --sf-outline--alfa:0.5;
+}
+
+.hover\:outline-opacity-6:hover {
+  --sf-outline--alfa:0.6;
+}
+
+.hover\:outline-opacity-7:hover {
+  --sf-outline--alfa:0.7;
+}
+
+.hover\:outline-opacity-8:hover {
+  --sf-outline--alfa:0.8;
+}
+
+.hover\:outline-opacity-9:hover {
+  --sf-outline--alfa:0.9;
+}
+
+.hover\:outline-opacity-full:hover {
+  --sf-outline--alfa:1;
+}
+
+.hover\:outline-opacity-0:hover {
+  --sf-outline--alfa:0;
+}

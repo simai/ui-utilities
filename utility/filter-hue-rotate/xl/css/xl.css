@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+  .xl\:hue-rotate-1, .xl\:hue-rotate-2, .xl\:hue-rotate-3, .xl\:hue-rotate-4, .xl\:hue-rotate-5, .xl\:hue-rotate-0 {
+    --sf-blur: ;
+    --sf-brightness: ;
+    --sf-contrast: ;
+    --sf-grayscale: ;
+    --sf-hue-rotate: ;
+    --sf-invert: ;
+    --sf-saturate: ;
+    --sf-sepia: ;
+    --sf-drop-shadow: ;
+    filter: var(--sf-blur) var(--sf-brightness) var(--sf-contrast) var(--sf-grayscale) var(--sf-hue-rotate) var(--sf-invert) var(--sf-saturate) var(--sf-sepia) var(--sf-drop-shadow);
+  }
+  .xl\:hue-rotate-1 {
+    --sf-hue-rotate: hue-rotate(15deg);
+  }
+  .xl\:hue-rotate-2 {
+    --sf-hue-rotate: hue-rotate(30deg);
+  }
+  .xl\:hue-rotate-3 {
+    --sf-hue-rotate: hue-rotate(60deg);
+  }
+  .xl\:hue-rotate-4 {
+    --sf-hue-rotate: hue-rotate(90deg);
+  }
+  .xl\:hue-rotate-5 {
+    --sf-hue-rotate: hue-rotate(180deg);
+  }
+  .xl\:hue-rotate-0 {
+    --sf-hue-rotate: hue-rotate(0deg);
+  }
+}

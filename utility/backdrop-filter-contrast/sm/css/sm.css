@@ -1,0 +1,35 @@
+@media (min-width: 576px) {
+  .sm\:backdrop-contrast-1, .sm\:backdrop-contrast-2, .sm\:backdrop-contrast-3, .sm\:backdrop-contrast-4, .sm\:backdrop-contrast-5, .sm\:backdrop-contrast-6, .sm\:backdrop-contrast-0 {
+    --sf-backdrop-blur: ;
+    --sf-backdrop-brightness: ;
+    --sf-backdrop-contrast: ;
+    --sf-backdrop-grayscale: ;
+    --sf-backdrop-hue-rotate: ;
+    --sf-backdrop-invert: ;
+    --sf-backdrop-opacity: ;
+    --sf-backdrop-saturate: ;
+    --sf-backdrop-sepia: ;
+    backdrop-filter: var(--sf-backdrop-blur) var(--sf-backdrop-brightness) var(--sf-backdrop-contrast) var(--sf-backdrop-grayscale) var(--sf-backdrop-hue-rotate) var(--sf-backdrop-invert) var(--sf-backdrop-opacity) var(--sf-backdrop-saturate) var(--sf-backdrop-sepia);
+  }
+  .sm\:backdrop-contrast-1 {
+    --sf-backdrop-contrast: contrast(0.5);
+  }
+  .sm\:backdrop-contrast-2 {
+    --sf-backdrop-contrast: contrast(0.75);
+  }
+  .sm\:backdrop-contrast-3 {
+    --sf-backdrop-contrast: contrast(1);
+  }
+  .sm\:backdrop-contrast-4 {
+    --sf-backdrop-contrast: contrast(1.25);
+  }
+  .sm\:backdrop-contrast-5 {
+    --sf-backdrop-contrast: contrast(1.5);
+  }
+  .sm\:backdrop-contrast-6 {
+    --sf-backdrop-contrast: contrast(2);
+  }
+  .sm\:backdrop-contrast-0 {
+    --sf-backdrop-contrast: contrast(0);
+  }
+}

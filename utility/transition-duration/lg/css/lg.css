@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+  .lg\:duration-1 {
+    transition-duration: 75ms;
+  }
+  .lg\:duration-2 {
+    transition-duration: 100ms;
+  }
+  .lg\:duration-3 {
+    transition-duration: 150ms;
+  }
+  .lg\:duration-4 {
+    transition-duration: 200ms;
+  }
+  .lg\:duration-5 {
+    transition-duration: 300ms;
+  }
+  .lg\:duration-6 {
+    transition-duration: 500ms;
+  }
+  .lg\:duration-7 {
+    transition-duration: 700ms;
+  }
+  .lg\:duration-8 {
+    transition-duration: 1s;
+  }
+  .lg\:duration-9 {
+    transition-duration: 2s;
+  }
+  .lg\:duration-0 {
+    transition-duration: 0s;
+  }
+}

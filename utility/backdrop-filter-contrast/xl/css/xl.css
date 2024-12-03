@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+  .xl\:backdrop-contrast-1, .xl\:backdrop-contrast-2, .xl\:backdrop-contrast-3, .xl\:backdrop-contrast-4, .xl\:backdrop-contrast-5, .xl\:backdrop-contrast-6, .xl\:backdrop-contrast-0 {
+    --sf-backdrop-blur: ;
+    --sf-backdrop-brightness: ;
+    --sf-backdrop-contrast: ;
+    --sf-backdrop-grayscale: ;
+    --sf-backdrop-hue-rotate: ;
+    --sf-backdrop-invert: ;
+    --sf-backdrop-opacity: ;
+    --sf-backdrop-saturate: ;
+    --sf-backdrop-sepia: ;
+    backdrop-filter: var(--sf-backdrop-blur) var(--sf-backdrop-brightness) var(--sf-backdrop-contrast) var(--sf-backdrop-grayscale) var(--sf-backdrop-hue-rotate) var(--sf-backdrop-invert) var(--sf-backdrop-opacity) var(--sf-backdrop-saturate) var(--sf-backdrop-sepia);
+  }
+  .xl\:backdrop-contrast-1 {
+    --sf-backdrop-contrast: contrast(0.5);
+  }
+  .xl\:backdrop-contrast-2 {
+    --sf-backdrop-contrast: contrast(0.75);
+  }
+  .xl\:backdrop-contrast-3 {
+    --sf-backdrop-contrast: contrast(1);
+  }
+  .xl\:backdrop-contrast-4 {
+    --sf-backdrop-contrast: contrast(1.25);
+  }
+  .xl\:backdrop-contrast-5 {
+    --sf-backdrop-contrast: contrast(1.5);
+  }
+  .xl\:backdrop-contrast-6 {
+    --sf-backdrop-contrast: contrast(2);
+  }
+  .xl\:backdrop-contrast-0 {
+    --sf-backdrop-contrast: contrast(0);
+  }
+}

@@ -1,0 +1,59 @@
+.active\:bg-main:active {
+  background-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-bg--alfa));
+}
+
+.active\:bg-spare:active {
+  background-color: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-bg--alfa));
+}
+
+.active\:bg-extra:active {
+  background-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-bg--alfa));
+}
+
+.active\:bg-placeholder:active {
+  background-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-bg--alfa));
+}
+
+.active\:bg-disabled:active {
+  background-color: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-bg--alfa));
+}
+
+.active\:bg-inverse:active {
+  background-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-bg--alfa));
+}
+
+.active\:bg-info:active {
+  background-color: rgba(var(--sf-blue-1r), var(--sf-blue-1g), var(--sf-blue-1b), var(--sf-bg--alfa));
+}
+
+.active\:bg-success:active {
+  background-color: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-bg--alfa));
+}
+
+.active\:bg-warning:active {
+  background-color: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-bg--alfa));
+}
+
+.active\:bg-danger:active {
+  background-color: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-bg--alfa));
+}
+
+.active\:bg-white:active {
+  background-color: rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-bg--alfa));
+}
+
+.active\:bg-black:active {
+  background-color: rgba(var(--sf-black-r), var(--sf-black-g), var(--sf-black-b), var(--sf-bg--alfa));
+}
+
+.active\:bg-inherit:active {
+  background-color: inherit;
+}
+
+.active\:bg-transparent:active {
+  background-color: var(--sf-transparent);
+}
+
+.active\:bg-current:active {
+  background-color: currentColor;
+}

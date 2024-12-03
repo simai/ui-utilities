@@ -1,0 +1,5 @@
+@media (min-width: 576px) {
+  .sm\:appearance-none {
+    appearance: none;
+  }
+}

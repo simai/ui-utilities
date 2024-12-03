@@ -1,0 +1,101 @@
+@media (min-width: 992px) {
+  .lg\:gr1-opacity-1 {
+    --sf-gradient--alfa-1:0.1;
+  }
+  .lg\:gr1-opacity-2 {
+    --sf-gradient--alfa-1:0.2;
+  }
+  .lg\:gr1-opacity-3 {
+    --sf-gradient--alfa-1:0.3;
+  }
+  .lg\:gr1-opacity-4 {
+    --sf-gradient--alfa-1:0.4;
+  }
+  .lg\:gr1-opacity-5 {
+    --sf-gradient--alfa-1:0.5;
+  }
+  .lg\:gr1-opacity-6 {
+    --sf-gradient--alfa-1:0.6;
+  }
+  .lg\:gr1-opacity-7 {
+    --sf-gradient--alfa-1:0.7;
+  }
+  .lg\:gr1-opacity-8 {
+    --sf-gradient--alfa-1:0.8;
+  }
+  .lg\:gr1-opacity-9 {
+    --sf-gradient--alfa-1:0.9;
+  }
+  .lg\:gr1-opacity-full {
+    --sf-gradient--alfa-1:1;
+  }
+  .lg\:gr1-opacity-0 {
+    --sf-gradient--alfa-1:0;
+  }
+  .lg\:gr2-opacity-1 {
+    --sf-gradient--alfa-2:0.1;
+  }
+  .lg\:gr2-opacity-2 {
+    --sf-gradient--alfa-2:0.2;
+  }
+  .lg\:gr2-opacity-3 {
+    --sf-gradient--alfa-2:0.3;
+  }
+  .lg\:gr2-opacity-4 {
+    --sf-gradient--alfa-2:0.4;
+  }
+  .lg\:gr2-opacity-5 {
+    --sf-gradient--alfa-2:0.5;
+  }
+  .lg\:gr2-opacity-6 {
+    --sf-gradient--alfa-2:0.6;
+  }
+  .lg\:gr2-opacity-7 {
+    --sf-gradient--alfa-2:0.7;
+  }
+  .lg\:gr2-opacity-8 {
+    --sf-gradient--alfa-2:0.8;
+  }
+  .lg\:gr2-opacity-9 {
+    --sf-gradient--alfa-2:0.9;
+  }
+  .lg\:gr2-opacity-full {
+    --sf-gradient--alfa-2:1;
+  }
+  .lg\:gr2-opacity-0 {
+    --sf-gradient--alfa-2:0;
+  }
+  .lg\:gr3-opacity-1 {
+    --sf-gradient--alfa-3:0.1;
+  }
+  .lg\:gr3-opacity-2 {
+    --sf-gradient--alfa-3:0.2;
+  }
+  .lg\:gr3-opacity-3 {
+    --sf-gradient--alfa-3:0.3;
+  }
+  .lg\:gr3-opacity-4 {
+    --sf-gradient--alfa-3:0.4;
+  }
+  .lg\:gr3-opacity-5 {
+    --sf-gradient--alfa-3:0.5;
+  }
+  .lg\:gr3-opacity-6 {
+    --sf-gradient--alfa-3:0.6;
+  }
+  .lg\:gr3-opacity-7 {
+    --sf-gradient--alfa-3:0.7;
+  }
+  .lg\:gr3-opacity-8 {
+    --sf-gradient--alfa-3:0.8;
+  }
+  .lg\:gr3-opacity-9 {
+    --sf-gradient--alfa-3:0.9;
+  }
+  .lg\:gr3-opacity-full {
+    --sf-gradient--alfa-3:1;
+  }
+  .lg\:gr3-opacity-0 {
+    --sf-gradient--alfa-3:0;
+  }
+}

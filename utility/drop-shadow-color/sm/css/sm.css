@@ -1,0 +1,83 @@
+@media (min-width: 540px) {
+  .sm\:drop-shadow-surface-highest, .sm\:drop-shadow-surface-high, .sm\:drop-shadow-surface-default, .sm\:drop-shadow-surface-low, .sm\:drop-shadow-surface-lowest, .sm\:drop-shadow-surface-inverse, .sm\:drop-shadow-surface-variant, .sm\:drop-shadow-primary-default, .sm\:drop-shadow-primary-tonal, .sm\:drop-shadow-primary-inverse, .sm\:drop-shadow-primary-contrast, .sm\:drop-shadow-secondary-default, .sm\:drop-shadow-secondary-tonal, .sm\:drop-shadow-secondary-inverse, .sm\:drop-shadow-secondary-contrast, .sm\:drop-shadow-tertiary-default, .sm\:drop-shadow-tertiary-tonal, .sm\:drop-shadow-tertiary-inverse, .sm\:drop-shadow-tertiary-contrast, .sm\:drop-shadow-info-default, .sm\:drop-shadow-info-tonal, .sm\:drop-shadow-info-inverse, .sm\:drop-shadow-info-contrast, .sm\:drop-shadow-success-default, .sm\:drop-shadow-success-tonal, .sm\:drop-shadow-success-inverse, .sm\:drop-shadow-success-contrast, .sm\:drop-shadow-warning-default, .sm\:drop-shadow-warning-tonal, .sm\:drop-shadow-warning-inverse, .sm\:drop-shadow-warning-contrast, .sm\:drop-shadow-danger-default, .sm\:drop-shadow-danger-tonal, .sm\:drop-shadow-danger-inverse, .sm\:drop-shadow-danger-contrast, .sm\:drop-shadow-transparent, .sm\:drop-shadow-current, .sm\:drop-shadow-inherit {
+    --sf-shadow: 0 0 #0000;
+    --sf-shadow-colored: 0 0 #0000; }
+  .sm\:drop-shadow-surface-highest, .sm\:drop-shadow-surface-high, .sm\:drop-shadow-surface-default, .sm\:drop-shadow-surface-low, .sm\:drop-shadow-surface-lowest, .sm\:drop-shadow-surface-inverse, .sm\:drop-shadow-surface-variant, .sm\:drop-shadow-primary-default, .sm\:drop-shadow-primary-tonal, .sm\:drop-shadow-primary-inverse, .sm\:drop-shadow-primary-contrast, .sm\:drop-shadow-secondary-default, .sm\:drop-shadow-secondary-tonal, .sm\:drop-shadow-secondary-inverse, .sm\:drop-shadow-secondary-contrast, .sm\:drop-shadow-tertiary-default, .sm\:drop-shadow-tertiary-tonal, .sm\:drop-shadow-tertiary-inverse, .sm\:drop-shadow-tertiary-contrast, .sm\:drop-shadow-info-default, .sm\:drop-shadow-info-tonal, .sm\:drop-shadow-info-inverse, .sm\:drop-shadow-info-contrast, .sm\:drop-shadow-success-default, .sm\:drop-shadow-success-tonal, .sm\:drop-shadow-success-inverse, .sm\:drop-shadow-success-contrast, .sm\:drop-shadow-warning-default, .sm\:drop-shadow-warning-tonal, .sm\:drop-shadow-warning-inverse, .sm\:drop-shadow-warning-contrast, .sm\:drop-shadow-danger-default, .sm\:drop-shadow-danger-tonal, .sm\:drop-shadow-danger-inverse, .sm\:drop-shadow-danger-contrast, .sm\:drop-shadow-transparent, .sm\:drop-shadow-current, .sm\:drop-shadow-inherit {
+    filter: var(--sf-drop-shadow); }
+  .sm\:drop-shadow-surface-highest {
+    --sf-drop-shadow-color: --sf-color--surface-highest; }
+  .sm\:drop-shadow-surface-high {
+    --sf-drop-shadow-color: --sf-color--surface-high; }
+  .sm\:drop-shadow-surface-default {
+    --sf-drop-shadow-color: --sf-color--surface-default; }
+  .sm\:drop-shadow-surface-low {
+    --sf-drop-shadow-color: --sf-color--surface-low; }
+  .sm\:drop-shadow-surface-lowest {
+    --sf-drop-shadow-color: --sf-color--surface-lowest; }
+  .sm\:drop-shadow-surface-inverse {
+    --sf-drop-shadow-color: --sf-color--surface-inverse; }
+  .sm\:drop-shadow-surface-variant {
+    --sf-drop-shadow-color: --sf-color--surface-variant; }
+  .sm\:drop-shadow-primary-default {
+    --sf-drop-shadow-color: --sf-color--primary-default; }
+  .sm\:drop-shadow-primary-tonal {
+    --sf-drop-shadow-color: --sf-color--primary-tonal; }
+  .sm\:drop-shadow-primary-inverse {
+    --sf-drop-shadow-color: --sf-color--primary-inverse; }
+  .sm\:drop-shadow-primary-contrast {
+    --sf-drop-shadow-color: --sf-color--primary-text; }
+  .sm\:drop-shadow-secondary-default {
+    --sf-drop-shadow-color: --sf-color--secondary-default; }
+  .sm\:drop-shadow-secondary-tonal {
+    --sf-drop-shadow-color: --sf-color--secondary-tonal; }
+  .sm\:drop-shadow-secondary-inverse {
+    --sf-drop-shadow-color: --sf-color--secondary-inverse; }
+  .sm\:drop-shadow-secondary-contrast {
+    --sf-drop-shadow-color: --sf-color--secondary-text; }
+  .sm\:drop-shadow-tertiary-default {
+    --sf-drop-shadow-color: --sf-color--tertiary-default; }
+  .sm\:drop-shadow-tertiary-tonal {
+    --sf-drop-shadow-color: --sf-color--tertiary-tonal; }
+  .sm\:drop-shadow-tertiary-inverse {
+    --sf-drop-shadow-color: --sf-color--tertiary-inverse; }
+  .sm\:drop-shadow-tertiary-contrast {
+    --sf-drop-shadow-color: --sf-color--tertiary-text; }
+  .sm\:drop-shadow-info-default {
+    --sf-drop-shadow-color: --sf-color--info-primary; }
+  .sm\:drop-shadow-info-tonal {
+    --sf-drop-shadow-color: --sf-color--info-tonal; }
+  .sm\:drop-shadow-info-inverse {
+    --sf-drop-shadow-color: --sf-color--info-inverse; }
+  .sm\:drop-shadow-info-contrast {
+    --sf-drop-shadow-color: --sf-color--info-text; }
+  .sm\:drop-shadow-success-default {
+    --sf-drop-shadow-color: --sf-color--success-primary; }
+  .sm\:drop-shadow-success-tonal {
+    --sf-drop-shadow-color: --sf-color--success-tonal; }
+  .sm\:drop-shadow-success-inverse {
+    --sf-drop-shadow-color: --sf-color--success-inverse; }
+  .sm\:drop-shadow-success-contrast {
+    --sf-drop-shadow-color: --sf-color--success-text; }
+  .sm\:drop-shadow-warning-default {
+    --sf-drop-shadow-color: --sf-color--warning-primary; }
+  .sm\:drop-shadow-warning-tonal {
+    --sf-drop-shadow-color: --sf-color--warning-tonal; }
+  .sm\:drop-shadow-warning-inverse {
+    --sf-drop-shadow-color: --sf-color--warning-inverse; }
+  .sm\:drop-shadow-warning-contrast {
+    --sf-drop-shadow-color: --sf-color--warning-text; }
+  .sm\:drop-shadow-danger-default {
+    --sf-drop-shadow-color: --sf-color--danger-primary; }
+  .sm\:drop-shadow-danger-tonal {
+    --sf-drop-shadow-color: --sf-color--danger-tonal; }
+  .sm\:drop-shadow-danger-inverse {
+    --sf-drop-shadow-color: --sf-color--danger-inverse; }
+  .sm\:drop-shadow-danger-contrast {
+    --sf-drop-shadow-color: --sf-color--danger-text; }
+  .sm\:drop-shadow-transparent {
+    --sf-drop-shadow-color: --sf-transparent; }
+  .sm\:drop-shadow-current {
+    --sf-drop-shadow-color: --sf-current; }
+  .sm\:drop-shadow-inherit {
+    --sf-drop-shadow-color: --sf-inherit; } }
+

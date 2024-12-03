@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+  .xl\:before-none::before {
+    content: none;
+  }
+  .xl\:after-none::after {
+    content: none;
+  }
+  .xl\:before-empty::before {
+    content: '';
+  }
+  .xl\:after-empty::after {
+    content: '';
+  }
+}

@@ -1,0 +1,59 @@
+.ring-offset-main {
+  --sf-ring-offset-color:rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-divider--alfa));
+}
+
+.ring-offset-spare {
+  --sf-ring-offset-color:rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-divider--alfa));
+}
+
+.ring-offset-extra {
+  --sf-ring-offset-color:rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-divider--alfa));
+}
+
+.ring-offset-placeholder {
+  --sf-ring-offset-color:rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-divider--alfa));
+}
+
+.ring-offset-disabled {
+  --sf-ring-offset-color:rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-divider--alfa));
+}
+
+.ring-offset-inverse {
+  --sf-ring-offset-color:rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-divider--alfa));
+}
+
+.ring-offset-info {
+  --sf-ring-offset-color:rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b), var(--sf-divider--alfa));
+}
+
+.ring-offset-success {
+  --sf-ring-offset-color:rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-divider--alfa));
+}
+
+.ring-offset-warning {
+  --sf-ring-offset-color:rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-divider--alfa));
+}
+
+.ring-offset-danger {
+  --sf-ring-offset-color:rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-divider--alfa));
+}
+
+.ring-offset-white {
+  --sf-ring-offset-color:rgba(var(--sf-white-default), var(--sf-white-default), var(--sf-white-default), var(--sf-divider--alfa));
+}
+
+.ring-offset-black {
+  --sf-ring-offset-color:rgba(var(--sf-black-default), var(--sf-black-default), var(--sf-black-default), var(--sf-divider--alfa));
+}
+
+.ring-offset-inherit {
+  --sf-ring-offset-color:inherit;
+}
+
+.ring-offset-transparent {
+  --sf-ring-offset-color:var(--sf-transparent);
+}
+
+.ring-offset-current {
+  --sf-ring-offset-color:currentColor;
+}

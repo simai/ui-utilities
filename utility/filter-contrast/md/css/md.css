@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .md\:contrast-1, .md\:contrast-2, .md\:contrast-3, .md\:contrast-4, .md\:contrast-5, .md\:contrast-6, .md\:contrast-0 {
+    --sf-blur: ;
+    --sf-brightness: ;
+    --sf-contrast: ;
+    --sf-grayscale: ;
+    --sf-hue-rotate: ;
+    --sf-invert: ;
+    --sf-saturate: ;
+    --sf-sepia: ;
+    --sf-drop-shadow: ;
+    filter: var(--sf-blur) var(--sf-brightness) var(--sf-contrast) var(--sf-grayscale) var(--sf-hue-rotate) var(--sf-invert) var(--sf-saturate) var(--sf-sepia) var(--sf-drop-shadow);
+  }
+  .md\:contrast-1 {
+    --sf-contrast: contrast(0.5);
+  }
+  .md\:contrast-2 {
+    --sf-contrast: contrast(0.75);
+  }
+  .md\:contrast-3 {
+    --sf-contrast: contrast(1);
+  }
+  .md\:contrast-4 {
+    --sf-contrast: contrast(1.25);
+  }
+  .md\:contrast-5 {
+    --sf-contrast: contrast(1.5);
+  }
+  .md\:contrast-6 {
+    --sf-contrast: contrast(1.75);
+  }
+  .md\:contrast-0 {
+    --sf-contrast: contrast(0);
+  }
+}

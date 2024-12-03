@@ -1,0 +1,59 @@
+.active\:accent-main:active {
+  accent-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-accent--alfa));
+}
+
+.active\:accent-spare:active {
+  accent-color: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-accent--alfa));
+}
+
+.active\:accent-extra:active {
+  accent-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-accent--alfa));
+}
+
+.active\:accent-placeholder:active {
+  accent-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-accent--alfa));
+}
+
+.active\:accent-disabled:active {
+  accent-color: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-accent--alfa));
+}
+
+.active\:accent-inverse:active {
+  accent-color: rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-accent--alfa));
+}
+
+.active\:accent-info:active {
+  accent-color: rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b), var(--sf-accent--alfa));
+}
+
+.active\:accent-success:active {
+  accent-color: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-accent--alfa));
+}
+
+.active\:accent-warning:active {
+  accent-color: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-accent--alfa));
+}
+
+.active\:accent-danger:active {
+  accent-color: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-accent--alfa));
+}
+
+.active\:accent-white:active {
+  accent-color: rgba(var(--sf-white-default), var(--sf-white-default), var(--sf-white-default), var(--sf-accent--alfa));
+}
+
+.active\:accent-black:active {
+  accent-color: rgba(var(--sf-black-default), var(--sf-black-default), var(--sf-black-default), var(--sf-accent--alfa));
+}
+
+.active\:accent-inherit:active {
+  accent-color: inherit;
+}
+
+.active\:accent-transparent:active {
+  accent-color: var(--sf-transparent);
+}
+
+.active\:accent-current:active {
+  accent-color: currentColor;
+}

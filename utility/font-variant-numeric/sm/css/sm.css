@@ -1,0 +1,39 @@
+.sm\:num-ordinal, .sm\:num-slashed-zero, .sm\:num-lining, .sm\:num-oldstyle, .sm\:num-proportional, .sm\:num-tabular, .sm\:num-diagonal, .sm\:num-stacked-fractions, .sm\:num-normal {
+  --sf-text--num-ordinal: var(--sf-empty);
+  --sf-text--num-zero: var(--sf-empty);
+  --sf-text--num-figure: var(--sf-empty);
+  --sf-text--num-spacing: var(--sf-empty);
+  --sf-text--num-fraction: var(--sf-empty);
+  font-feature-settings: var(--sf-text--num-ordinal) var(--sf-text--num-zero) var(--sf-text--num-figure) var(--sf-text--num-spacing) var(--sf-text--num-fraction);
+  font-variant-numeric: var(--sf-text--num-ordinal) var(--sf-text--num-zero) var(--sf-text--num-figure) var(--sf-text--num-spacing) var(--sf-text--num-fraction);
+}
+
+@media (min-width: 576px) {
+  .sm\:num-ordinal {
+    --sf-text-num-ordinal:ordinal;
+  }
+  .sm\:num-slashed-zero {
+    --sf-text-num-slashed-zero:slashed-zero;
+  }
+  .sm\:num-lining {
+    --sf-text-num-lining:lining-nums;
+  }
+  .sm\:num-oldstyle {
+    --sf-text-num-oldstyle:oldstyle-nums;
+  }
+  .sm\:num-proportional {
+    --sf-text-num-proportional:proportional-nums;
+  }
+  .sm\:num-tabular {
+    --sf-text-num-tabular:tabular-nums;
+  }
+  .sm\:num-diagonal {
+    --sf-text-num-diagonal:diagonal-fractions;
+  }
+  .sm\:num-stacked-fractions {
+    --sf-text-num-stacked-fractions:stacked-fractions;
+  }
+  .sm\:num-normal {
+    --sf-text-num-normal:normal;
+  }
+}

@@ -1,0 +1,43 @@
+.divider-opacity-1 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.1;
+}
+
+.divider-opacity-2 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.2;
+}
+
+.divider-opacity-3 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.3;
+}
+
+.divider-opacity-4 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.4;
+}
+
+.divider-opacity-5 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.5;
+}
+
+.divider-opacity-6 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.6;
+}
+
+.divider-opacity-7 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.7;
+}
+
+.divider-opacity-8 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.8;
+}
+
+.divider-opacity-9 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0.9;
+}
+
+.divider-opacity-full > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:1;
+}
+
+.divider-opacity-0 > :not([hidden]) ~ :not([hidden]) {
+  --sf-divider--alfa:0;
+}

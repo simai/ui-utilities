@@ -1,0 +1,38 @@
+@media (min-width: 1200px) {
+  .xl\:backdrop-blur-1, .xl\:backdrop-blur-2, .xl\:backdrop-blur-3, .xl\:backdrop-blur-4, .xl\:backdrop-blur-5, .xl\:backdrop-blur-6, .xl\:backdrop-blur-7, .xl\:backdrop-blur-0 {
+    --sf-backdrop-blur: ;
+    --sf-backdrop-brightness: ;
+    --sf-backdrop-contrast: ;
+    --sf-backdrop-grayscale: ;
+    --sf-backdrop-hue-rotate: ;
+    --sf-backdrop-invert: ;
+    --sf-backdrop-opacity: ;
+    --sf-backdrop-saturate: ;
+    --sf-backdrop-sepia: ;
+    backdrop-filter: var(--sf-backdrop-blur) var(--sf-backdrop-brightness) var(--sf-backdrop-contrast) var(--sf-backdrop-grayscale) var(--sf-backdrop-hue-rotate) var(--sf-backdrop-invert) var(--sf-backdrop-opacity) var(--sf-backdrop-saturate) var(--sf-backdrop-sepia);
+  }
+  .xl\:backdrop-blur-1 {
+    --sf-backdrop-blur: blur(var(--sf-a1));
+  }
+  .xl\:backdrop-blur-2 {
+    --sf-backdrop-blur: blur(var(--sf-a2));
+  }
+  .xl\:backdrop-blur-3 {
+    --sf-backdrop-blur: blur(var(--sf-a4));
+  }
+  .xl\:backdrop-blur-4 {
+    --sf-backdrop-blur: blur(var(--sf-a8));
+  }
+  .xl\:backdrop-blur-5 {
+    --sf-backdrop-blur: blur(var(--sf-b6));
+  }
+  .xl\:backdrop-blur-6 {
+    --sf-backdrop-blur: blur(var(--sf-c2));
+  }
+  .xl\:backdrop-blur-7 {
+    --sf-backdrop-blur: blur(var(--sf-c6));
+  }
+  .xl\:backdrop-blur-0 {
+    --sf-backdrop-blur: blur(var(--sf-0));
+  }
+}

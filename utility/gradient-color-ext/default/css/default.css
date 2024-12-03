@@ -1,0 +1,959 @@
+.gr1-gray-0 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-0r), var(--sf-gray-0g), var(--sf-gray-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-0 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-0r), var(--sf-gray-0g), var(--sf-gray-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-0 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-0r), var(--sf-gray-0g), var(--sf-gray-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-1 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-1r), var(--sf-gray-1g), var(--sf-gray-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-1 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-1r), var(--sf-gray-1g), var(--sf-gray-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-1 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-1r), var(--sf-gray-1g), var(--sf-gray-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-2 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-2r), var(--sf-gray-2g), var(--sf-gray-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-2 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-2r), var(--sf-gray-2g), var(--sf-gray-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-2 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-2r), var(--sf-gray-2g), var(--sf-gray-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-3 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-3r), var(--sf-gray-3g), var(--sf-gray-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-3 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-3r), var(--sf-gray-3g), var(--sf-gray-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-3 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-3r), var(--sf-gray-3g), var(--sf-gray-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-4 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-4 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-4 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-5 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-5 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-5 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-6 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-6 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-6 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-7 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-7r), var(--sf-gray-7g), var(--sf-gray-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-7 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-7r), var(--sf-gray-7g), var(--sf-gray-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-7 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-7r), var(--sf-gray-7g), var(--sf-gray-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-8 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-8r), var(--sf-gray-8g), var(--sf-gray-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-8 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-8r), var(--sf-gray-8g), var(--sf-gray-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-8 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-8r), var(--sf-gray-8g), var(--sf-gray-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-gray-9 {
+  --sf-gradient--color-1: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-gray-9 {
+  --sf-gradient--color-2: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-gray-9 {
+  --sf-gradient--color-3: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-0 {
+  --sf-gradient--color-1: rgba(var(--sf-red-0r), var(--sf-red-0g), var(--sf-red-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-0 {
+  --sf-gradient--color-2: rgba(var(--sf-red-0r), var(--sf-red-0g), var(--sf-red-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-0 {
+  --sf-gradient--color-3: rgba(var(--sf-red-0r), var(--sf-red-0g), var(--sf-red-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-1 {
+  --sf-gradient--color-1: rgba(var(--sf-red-1r), var(--sf-red-1g), var(--sf-red-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-1 {
+  --sf-gradient--color-2: rgba(var(--sf-red-1r), var(--sf-red-1g), var(--sf-red-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-1 {
+  --sf-gradient--color-3: rgba(var(--sf-red-1r), var(--sf-red-1g), var(--sf-red-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-2 {
+  --sf-gradient--color-1: rgba(var(--sf-red-2r), var(--sf-red-2g), var(--sf-red-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-2 {
+  --sf-gradient--color-2: rgba(var(--sf-red-2r), var(--sf-red-2g), var(--sf-red-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-2 {
+  --sf-gradient--color-3: rgba(var(--sf-red-2r), var(--sf-red-2g), var(--sf-red-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-3 {
+  --sf-gradient--color-1: rgba(var(--sf-red-3r), var(--sf-red-3g), var(--sf-red-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-3 {
+  --sf-gradient--color-2: rgba(var(--sf-red-3r), var(--sf-red-3g), var(--sf-red-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-3 {
+  --sf-gradient--color-3: rgba(var(--sf-red-3r), var(--sf-red-3g), var(--sf-red-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-4 {
+  --sf-gradient--color-1: rgba(var(--sf-red-4r), var(--sf-red-4g), var(--sf-red-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-4 {
+  --sf-gradient--color-2: rgba(var(--sf-red-4r), var(--sf-red-4g), var(--sf-red-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-4 {
+  --sf-gradient--color-3: rgba(var(--sf-red-4r), var(--sf-red-4g), var(--sf-red-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-5 {
+  --sf-gradient--color-1: rgba(var(--sf-red-5r), var(--sf-red-5g), var(--sf-red-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-5 {
+  --sf-gradient--color-2: rgba(var(--sf-red-5r), var(--sf-red-5g), var(--sf-red-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-5 {
+  --sf-gradient--color-3: rgba(var(--sf-red-5r), var(--sf-red-5g), var(--sf-red-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-6 {
+  --sf-gradient--color-1: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-6 {
+  --sf-gradient--color-2: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-6 {
+  --sf-gradient--color-3: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-7 {
+  --sf-gradient--color-1: rgba(var(--sf-red-7r), var(--sf-red-7g), var(--sf-red-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-7 {
+  --sf-gradient--color-2: rgba(var(--sf-red-7r), var(--sf-red-7g), var(--sf-red-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-7 {
+  --sf-gradient--color-3: rgba(var(--sf-red-7r), var(--sf-red-7g), var(--sf-red-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-8 {
+  --sf-gradient--color-1: rgba(var(--sf-red-8r), var(--sf-red-8g), var(--sf-red-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-8 {
+  --sf-gradient--color-2: rgba(var(--sf-red-8r), var(--sf-red-8g), var(--sf-red-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-8 {
+  --sf-gradient--color-3: rgba(var(--sf-red-8r), var(--sf-red-8g), var(--sf-red-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-red-9 {
+  --sf-gradient--color-1: rgba(var(--sf-red-9r), var(--sf-red-9g), var(--sf-red-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-red-9 {
+  --sf-gradient--color-2: rgba(var(--sf-red-9r), var(--sf-red-9g), var(--sf-red-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-red-9 {
+  --sf-gradient--color-3: rgba(var(--sf-red-9r), var(--sf-red-9g), var(--sf-red-9b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-0 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-0r), var(--sf-orange-0g), var(--sf-orange-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-0 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-0r), var(--sf-orange-0g), var(--sf-orange-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-0 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-0r), var(--sf-orange-0g), var(--sf-orange-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-1 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-1r), var(--sf-orange-1g), var(--sf-orange-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-1 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-1r), var(--sf-orange-1g), var(--sf-orange-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-1 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-1r), var(--sf-orange-1g), var(--sf-orange-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-2 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-2r), var(--sf-orange-2g), var(--sf-orange-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-2 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-2r), var(--sf-orange-2g), var(--sf-orange-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-2 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-2r), var(--sf-orange-2g), var(--sf-orange-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-3 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-3r), var(--sf-orange-3g), var(--sf-orange-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-3 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-3r), var(--sf-orange-3g), var(--sf-orange-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-3 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-3r), var(--sf-orange-3g), var(--sf-orange-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-4 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-4r), var(--sf-orange-4g), var(--sf-orange-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-4 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-4r), var(--sf-orange-4g), var(--sf-orange-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-4 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-4r), var(--sf-orange-4g), var(--sf-orange-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-5 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-5r), var(--sf-orange-5g), var(--sf-orange-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-5 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-5r), var(--sf-orange-5g), var(--sf-orange-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-5 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-5r), var(--sf-orange-5g), var(--sf-orange-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-6 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-6r), var(--sf-orange-6g), var(--sf-orange-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-6 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-6r), var(--sf-orange-6g), var(--sf-orange-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-6 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-6r), var(--sf-orange-6g), var(--sf-orange-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-7 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-7r), var(--sf-orange-7g), var(--sf-orange-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-7 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-7r), var(--sf-orange-7g), var(--sf-orange-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-7 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-7r), var(--sf-orange-7g), var(--sf-orange-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-8 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-8r), var(--sf-orange-8g), var(--sf-orange-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-8 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-8r), var(--sf-orange-8g), var(--sf-orange-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-8 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-8r), var(--sf-orange-8g), var(--sf-orange-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-orange-9 {
+  --sf-gradient--color-1: rgba(var(--sf-orange-9r), var(--sf-orange-9g), var(--sf-orange-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-orange-9 {
+  --sf-gradient--color-2: rgba(var(--sf-orange-9r), var(--sf-orange-9g), var(--sf-orange-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-orange-9 {
+  --sf-gradient--color-3: rgba(var(--sf-orange-9r), var(--sf-orange-9g), var(--sf-orange-9b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-0 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-0r), var(--sf-yellow-0g), var(--sf-yellow-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-0 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-0r), var(--sf-yellow-0g), var(--sf-yellow-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-0 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-0r), var(--sf-yellow-0g), var(--sf-yellow-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-1 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-1r), var(--sf-yellow-1g), var(--sf-yellow-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-1 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-1r), var(--sf-yellow-1g), var(--sf-yellow-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-1 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-1r), var(--sf-yellow-1g), var(--sf-yellow-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-2 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-2r), var(--sf-yellow-2g), var(--sf-yellow-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-2 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-2r), var(--sf-yellow-2g), var(--sf-yellow-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-2 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-2r), var(--sf-yellow-2g), var(--sf-yellow-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-3 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-3r), var(--sf-yellow-3g), var(--sf-yellow-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-3 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-3r), var(--sf-yellow-3g), var(--sf-yellow-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-3 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-3r), var(--sf-yellow-3g), var(--sf-yellow-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-4 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-4r), var(--sf-yellow-4g), var(--sf-yellow-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-4 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-4r), var(--sf-yellow-4g), var(--sf-yellow-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-4 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-4r), var(--sf-yellow-4g), var(--sf-yellow-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-5 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-5r), var(--sf-yellow-5g), var(--sf-yellow-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-5 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-5r), var(--sf-yellow-5g), var(--sf-yellow-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-5 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-5r), var(--sf-yellow-5g), var(--sf-yellow-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-6 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-6r), var(--sf-yellow-6g), var(--sf-yellow-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-6 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-6r), var(--sf-yellow-6g), var(--sf-yellow-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-6 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-6r), var(--sf-yellow-6g), var(--sf-yellow-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-7 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-7r), var(--sf-yellow-7g), var(--sf-yellow-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-7 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-7r), var(--sf-yellow-7g), var(--sf-yellow-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-7 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-7r), var(--sf-yellow-7g), var(--sf-yellow-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-8 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-8 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-8 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-yellow-9 {
+  --sf-gradient--color-1: rgba(var(--sf-yellow-9r), var(--sf-yellow-9g), var(--sf-yellow-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-yellow-9 {
+  --sf-gradient--color-2: rgba(var(--sf-yellow-9r), var(--sf-yellow-9g), var(--sf-yellow-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-yellow-9 {
+  --sf-gradient--color-3: rgba(var(--sf-yellow-9r), var(--sf-yellow-9g), var(--sf-yellow-9b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-0 {
+  --sf-gradient--color-1: rgba(var(--sf-green-0r), var(--sf-green-0g), var(--sf-green-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-0 {
+  --sf-gradient--color-2: rgba(var(--sf-green-0r), var(--sf-green-0g), var(--sf-green-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-0 {
+  --sf-gradient--color-3: rgba(var(--sf-green-0r), var(--sf-green-0g), var(--sf-green-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-1 {
+  --sf-gradient--color-1: rgba(var(--sf-green-1r), var(--sf-green-1g), var(--sf-green-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-1 {
+  --sf-gradient--color-2: rgba(var(--sf-green-1r), var(--sf-green-1g), var(--sf-green-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-1 {
+  --sf-gradient--color-3: rgba(var(--sf-green-1r), var(--sf-green-1g), var(--sf-green-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-2 {
+  --sf-gradient--color-1: rgba(var(--sf-green-2r), var(--sf-green-2g), var(--sf-green-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-2 {
+  --sf-gradient--color-2: rgba(var(--sf-green-2r), var(--sf-green-2g), var(--sf-green-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-2 {
+  --sf-gradient--color-3: rgba(var(--sf-green-2r), var(--sf-green-2g), var(--sf-green-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-3 {
+  --sf-gradient--color-1: rgba(var(--sf-green-3r), var(--sf-green-3g), var(--sf-green-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-3 {
+  --sf-gradient--color-2: rgba(var(--sf-green-3r), var(--sf-green-3g), var(--sf-green-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-3 {
+  --sf-gradient--color-3: rgba(var(--sf-green-3r), var(--sf-green-3g), var(--sf-green-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-4 {
+  --sf-gradient--color-1: rgba(var(--sf-green-4r), var(--sf-green-4g), var(--sf-green-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-4 {
+  --sf-gradient--color-2: rgba(var(--sf-green-4r), var(--sf-green-4g), var(--sf-green-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-4 {
+  --sf-gradient--color-3: rgba(var(--sf-green-4r), var(--sf-green-4g), var(--sf-green-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-5 {
+  --sf-gradient--color-1: rgba(var(--sf-green-5r), var(--sf-green-5g), var(--sf-green-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-5 {
+  --sf-gradient--color-2: rgba(var(--sf-green-5r), var(--sf-green-5g), var(--sf-green-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-5 {
+  --sf-gradient--color-3: rgba(var(--sf-green-5r), var(--sf-green-5g), var(--sf-green-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-6 {
+  --sf-gradient--color-1: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-6 {
+  --sf-gradient--color-2: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-6 {
+  --sf-gradient--color-3: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-7 {
+  --sf-gradient--color-1: rgba(var(--sf-green-7r), var(--sf-green-7g), var(--sf-green-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-7 {
+  --sf-gradient--color-2: rgba(var(--sf-green-7r), var(--sf-green-7g), var(--sf-green-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-7 {
+  --sf-gradient--color-3: rgba(var(--sf-green-7r), var(--sf-green-7g), var(--sf-green-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-8 {
+  --sf-gradient--color-1: rgba(var(--sf-green-8r), var(--sf-green-8g), var(--sf-green-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-8 {
+  --sf-gradient--color-2: rgba(var(--sf-green-8r), var(--sf-green-8g), var(--sf-green-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-8 {
+  --sf-gradient--color-3: rgba(var(--sf-green-8r), var(--sf-green-8g), var(--sf-green-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-green-9 {
+  --sf-gradient--color-1: rgba(var(--sf-green-9r), var(--sf-green-9g), var(--sf-green-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-green-9 {
+  --sf-gradient--color-2: rgba(var(--sf-green-9r), var(--sf-green-9g), var(--sf-green-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-green-9 {
+  --sf-gradient--color-3: rgba(var(--sf-green-9r), var(--sf-green-9g), var(--sf-green-9b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-0 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-0r), var(--sf-blue-0g), var(--sf-blue-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-0 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-0r), var(--sf-blue-0g), var(--sf-blue-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-0 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-0r), var(--sf-blue-0g), var(--sf-blue-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-1 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-1r), var(--sf-blue-1g), var(--sf-blue-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-1 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-1r), var(--sf-blue-1g), var(--sf-blue-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-1 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-1r), var(--sf-blue-1g), var(--sf-blue-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-2 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-2r), var(--sf-blue-2g), var(--sf-blue-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-2 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-2r), var(--sf-blue-2g), var(--sf-blue-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-2 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-2r), var(--sf-blue-2g), var(--sf-blue-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-3 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-3r), var(--sf-blue-3g), var(--sf-blue-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-3 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-3r), var(--sf-blue-3g), var(--sf-blue-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-3 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-3r), var(--sf-blue-3g), var(--sf-blue-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-4 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-4r), var(--sf-blue-4g), var(--sf-blue-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-4 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-4r), var(--sf-blue-4g), var(--sf-blue-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-4 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-4r), var(--sf-blue-4g), var(--sf-blue-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-5 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-5 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-5 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-6 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-6r), var(--sf-blue-6g), var(--sf-blue-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-6 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-6r), var(--sf-blue-6g), var(--sf-blue-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-6 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-6r), var(--sf-blue-6g), var(--sf-blue-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-7 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-7r), var(--sf-blue-7g), var(--sf-blue-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-7 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-7r), var(--sf-blue-7g), var(--sf-blue-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-7 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-7r), var(--sf-blue-7g), var(--sf-blue-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-8 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-8r), var(--sf-blue-8g), var(--sf-blue-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-8 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-8r), var(--sf-blue-8g), var(--sf-blue-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-8 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-8r), var(--sf-blue-8g), var(--sf-blue-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-blue-9 {
+  --sf-gradient--color-1: rgba(var(--sf-blue-9r), var(--sf-blue-9g), var(--sf-blue-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-blue-9 {
+  --sf-gradient--color-2: rgba(var(--sf-blue-9r), var(--sf-blue-9g), var(--sf-blue-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-blue-9 {
+  --sf-gradient--color-3: rgba(var(--sf-blue-9r), var(--sf-blue-9g), var(--sf-blue-9b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-0 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-0r), var(--sf-purple-0g), var(--sf-purple-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-0 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-0r), var(--sf-purple-0g), var(--sf-purple-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-0 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-0r), var(--sf-purple-0g), var(--sf-purple-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-1 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-1r), var(--sf-purple-1g), var(--sf-purple-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-1 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-1r), var(--sf-purple-1g), var(--sf-purple-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-1 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-1r), var(--sf-purple-1g), var(--sf-purple-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-2 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-2r), var(--sf-purple-2g), var(--sf-purple-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-2 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-2r), var(--sf-purple-2g), var(--sf-purple-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-2 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-2r), var(--sf-purple-2g), var(--sf-purple-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-3 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-3r), var(--sf-purple-3g), var(--sf-purple-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-3 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-3r), var(--sf-purple-3g), var(--sf-purple-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-3 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-3r), var(--sf-purple-3g), var(--sf-purple-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-4 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-4r), var(--sf-purple-4g), var(--sf-purple-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-4 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-4r), var(--sf-purple-4g), var(--sf-purple-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-4 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-4r), var(--sf-purple-4g), var(--sf-purple-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-5 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-5r), var(--sf-purple-5g), var(--sf-purple-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-5 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-5r), var(--sf-purple-5g), var(--sf-purple-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-5 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-5r), var(--sf-purple-5g), var(--sf-purple-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-6 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-6r), var(--sf-purple-6g), var(--sf-purple-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-6 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-6r), var(--sf-purple-6g), var(--sf-purple-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-6 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-6r), var(--sf-purple-6g), var(--sf-purple-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-7 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-7r), var(--sf-purple-7g), var(--sf-purple-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-7 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-7r), var(--sf-purple-7g), var(--sf-purple-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-7 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-7r), var(--sf-purple-7g), var(--sf-purple-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-8 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-8r), var(--sf-purple-8g), var(--sf-purple-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-8 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-8r), var(--sf-purple-8g), var(--sf-purple-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-8 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-8r), var(--sf-purple-8g), var(--sf-purple-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-purple-9 {
+  --sf-gradient--color-1: rgba(var(--sf-purple-9r), var(--sf-purple-9g), var(--sf-purple-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-purple-9 {
+  --sf-gradient--color-2: rgba(var(--sf-purple-9r), var(--sf-purple-9g), var(--sf-purple-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-purple-9 {
+  --sf-gradient--color-3: rgba(var(--sf-purple-9r), var(--sf-purple-9g), var(--sf-purple-9b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-0 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-0r), var(--sf-pink-0g), var(--sf-pink-0b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-0 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-0r), var(--sf-pink-0g), var(--sf-pink-0b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-0 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-0r), var(--sf-pink-0g), var(--sf-pink-0b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-1 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-1r), var(--sf-pink-1g), var(--sf-pink-1b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-1 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-1r), var(--sf-pink-1g), var(--sf-pink-1b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-1 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-1r), var(--sf-pink-1g), var(--sf-pink-1b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-2 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-2r), var(--sf-pink-2g), var(--sf-pink-2b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-2 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-2r), var(--sf-pink-2g), var(--sf-pink-2b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-2 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-2r), var(--sf-pink-2g), var(--sf-pink-2b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-3 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-3r), var(--sf-pink-3g), var(--sf-pink-3b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-3 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-3r), var(--sf-pink-3g), var(--sf-pink-3b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-3 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-3r), var(--sf-pink-3g), var(--sf-pink-3b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-4 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-4r), var(--sf-pink-4g), var(--sf-pink-4b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-4 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-4r), var(--sf-pink-4g), var(--sf-pink-4b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-4 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-4r), var(--sf-pink-4g), var(--sf-pink-4b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-5 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-5r), var(--sf-pink-5g), var(--sf-pink-5b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-5 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-5r), var(--sf-pink-5g), var(--sf-pink-5b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-5 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-5r), var(--sf-pink-5g), var(--sf-pink-5b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-6 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-6r), var(--sf-pink-6g), var(--sf-pink-6b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-6 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-6r), var(--sf-pink-6g), var(--sf-pink-6b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-6 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-6r), var(--sf-pink-6g), var(--sf-pink-6b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-7 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-7r), var(--sf-pink-7g), var(--sf-pink-7b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-7 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-7r), var(--sf-pink-7g), var(--sf-pink-7b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-7 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-7r), var(--sf-pink-7g), var(--sf-pink-7b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-8 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-8r), var(--sf-pink-8g), var(--sf-pink-8b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-8 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-8r), var(--sf-pink-8g), var(--sf-pink-8b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-8 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-8r), var(--sf-pink-8g), var(--sf-pink-8b),var(--sf-gradient--alfa-3));
+}
+
+.gr1-pink-9 {
+  --sf-gradient--color-1: rgba(var(--sf-pink-9r), var(--sf-pink-9g), var(--sf-pink-9b),var(--sf-gradient--alfa-1));
+}
+
+.gr2-pink-9 {
+  --sf-gradient--color-2: rgba(var(--sf-pink-9r), var(--sf-pink-9g), var(--sf-pink-9b),var(--sf-gradient--alfa-2));
+}
+
+.gr3-pink-9 {
+  --sf-gradient--color-3: rgba(var(--sf-pink-9r), var(--sf-pink-9g), var(--sf-pink-9b),var(--sf-gradient--alfa-3));
+}

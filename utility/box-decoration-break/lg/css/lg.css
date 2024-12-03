@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+  .lg\:box-slice {
+    -webkit-box-decoration-break: slice;
+            box-decoration-break: slice;
+  }
+  .lg\:box-clone {
+    -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+  }
+}

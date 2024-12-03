@@ -1,0 +1,14 @@
+@media (min-width: 576px) {
+  .sm\:ease-linear {
+    transition-timing-function: linear;
+  }
+  .sm\:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+  .sm\:ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  .sm\:ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

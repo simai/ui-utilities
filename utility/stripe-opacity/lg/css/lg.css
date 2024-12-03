@@ -1,0 +1,35 @@
+@media (min-width: 992px) {
+  .lg\:stripe-opacity-1 {
+    --sf-stripe--alfa:0.1;
+  }
+  .lg\:stripe-opacity-2 {
+    --sf-stripe--alfa:0.2;
+  }
+  .lg\:stripe-opacity-3 {
+    --sf-stripe--alfa:0.3;
+  }
+  .lg\:stripe-opacity-4 {
+    --sf-stripe--alfa:0.4;
+  }
+  .lg\:stripe-opacity-5 {
+    --sf-stripe--alfa:0.5;
+  }
+  .lg\:stripe-opacity-6 {
+    --sf-stripe--alfa:0.6;
+  }
+  .lg\:stripe-opacity-7 {
+    --sf-stripe--alfa:0.7;
+  }
+  .lg\:stripe-opacity-8 {
+    --sf-stripe--alfa:0.8;
+  }
+  .lg\:stripe-opacity-9 {
+    --sf-stripe--alfa:0.9;
+  }
+  .lg\:stripe-opacity-full {
+    --sf-stripe--alfa:1;
+  }
+  .lg\:stripe-opacity-0 {
+    --sf-stripe--alfa:0;
+  }
+}

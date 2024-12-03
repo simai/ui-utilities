@@ -1,0 +1,43 @@
+.color-opacity-1 {
+  --sf-color--alfa: 0.1;
+}
+
+.color-opacity-2 {
+  --sf-color--alfa: 0.2;
+}
+
+.color-opacity-3 {
+  --sf-color--alfa: 0.3;
+}
+
+.color-opacity-4 {
+  --sf-color--alfa: 0.4;
+}
+
+.color-opacity-5 {
+  --sf-color--alfa: 0.5;
+}
+
+.color-opacity-6 {
+  --sf-color--alfa: 0.6;
+}
+
+.color-opacity-7 {
+  --sf-color--alfa: 0.7;
+}
+
+.color-opacity-8 {
+  --sf-color--alfa: 0.8;
+}
+
+.color-opacity-9 {
+  --sf-color--alfa: 0.9;
+}
+
+.color-opacity-0 {
+  --sf-color--alfa: 0;
+}
+
+.color-opacity-full {
+  --sf-color--alfa: 1;
+}

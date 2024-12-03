@@ -1,0 +1,43 @@
+.outline-opacity-1 {
+  --sf-outline--alfa:0.1;
+}
+
+.outline-opacity-2 {
+  --sf-outline--alfa:0.2;
+}
+
+.outline-opacity-3 {
+  --sf-outline--alfa:0.3;
+}
+
+.outline-opacity-4 {
+  --sf-outline--alfa:0.4;
+}
+
+.outline-opacity-5 {
+  --sf-outline--alfa:0.5;
+}
+
+.outline-opacity-6 {
+  --sf-outline--alfa:0.6;
+}
+
+.outline-opacity-7 {
+  --sf-outline--alfa:0.7;
+}
+
+.outline-opacity-8 {
+  --sf-outline--alfa:0.8;
+}
+
+.outline-opacity-9 {
+  --sf-outline--alfa:0.9;
+}
+
+.outline-opacity-full {
+  --sf-outline--alfa:1;
+}
+
+.outline-opacity-0 {
+  --sf-outline--alfa:0;
+}

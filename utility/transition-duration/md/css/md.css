@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  .md\:duration-1 {
+    transition-duration: 75ms;
+  }
+  .md\:duration-2 {
+    transition-duration: 100ms;
+  }
+  .md\:duration-3 {
+    transition-duration: 150ms;
+  }
+  .md\:duration-4 {
+    transition-duration: 200ms;
+  }
+  .md\:duration-5 {
+    transition-duration: 300ms;
+  }
+  .md\:duration-6 {
+    transition-duration: 500ms;
+  }
+  .md\:duration-7 {
+    transition-duration: 700ms;
+  }
+  .md\:duration-8 {
+    transition-duration: 1s;
+  }
+  .md\:duration-9 {
+    transition-duration: 2s;
+  }
+  .md\:duration-0 {
+    transition-duration: 0s;
+  }
+}

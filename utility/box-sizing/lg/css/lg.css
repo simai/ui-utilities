@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+  .lg\:box-border {
+    box-sizing: border-box;
+  }
+  .lg\:box-content {
+    box-sizing: content-box;
+  }
+}

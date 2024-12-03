@@ -1,0 +1,6 @@
+@media (min-width: 540px) {
+  .sm\:visible {
+    visibility: visible; }
+  .sm\:invisible {
+    visibility: hidden; } }
+

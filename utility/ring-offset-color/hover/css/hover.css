@@ -1,0 +1,59 @@
+.hover\:ring-offset-main:hover {
+  --sf-ring-offset-color:rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-spare:hover {
+  --sf-ring-offset-color:rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-extra:hover {
+  --sf-ring-offset-color:rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-placeholder:hover {
+  --sf-ring-offset-color:rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-disabled:hover {
+  --sf-ring-offset-color:rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-inverse:hover {
+  --sf-ring-offset-color:rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-info:hover {
+  --sf-ring-offset-color:rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-success:hover {
+  --sf-ring-offset-color:rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-warning:hover {
+  --sf-ring-offset-color:rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-danger:hover {
+  --sf-ring-offset-color:rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-white:hover {
+  --sf-ring-offset-color:rgba(var(--sf-white-default), var(--sf-white-default), var(--sf-white-default), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-black:hover {
+  --sf-ring-offset-color:rgba(var(--sf-black-default), var(--sf-black-default), var(--sf-black-default), var(--sf-divider--alfa));
+}
+
+.hover\:ring-offset-inherit:hover {
+  --sf-ring-offset-color:inherit;
+}
+
+.hover\:ring-offset-transparent:hover {
+  --sf-ring-offset-color:var(--sf-transparent);
+}
+
+.hover\:ring-offset-current:hover {
+  --sf-ring-offset-color:currentColor;
+}

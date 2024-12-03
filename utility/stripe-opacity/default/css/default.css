@@ -1,0 +1,43 @@
+.stripe-opacity-1 {
+  --sf-stripe--alfa:0.1;
+}
+
+.stripe-opacity-2 {
+  --sf-stripe--alfa:0.2;
+}
+
+.stripe-opacity-3 {
+  --sf-stripe--alfa:0.3;
+}
+
+.stripe-opacity-4 {
+  --sf-stripe--alfa:0.4;
+}
+
+.stripe-opacity-5 {
+  --sf-stripe--alfa:0.5;
+}
+
+.stripe-opacity-6 {
+  --sf-stripe--alfa:0.6;
+}
+
+.stripe-opacity-7 {
+  --sf-stripe--alfa:0.7;
+}
+
+.stripe-opacity-8 {
+  --sf-stripe--alfa:0.8;
+}
+
+.stripe-opacity-9 {
+  --sf-stripe--alfa:0.9;
+}
+
+.stripe-opacity-full {
+  --sf-stripe--alfa:1;
+}
+
+.stripe-opacity-0 {
+  --sf-stripe--alfa:0;
+}

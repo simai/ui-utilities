@@ -1,0 +1,31 @@
+@media (min-width: 540px) {
+  .sm\:drop-shadow-1, .sm\:drop-shadow-2, .sm\:drop-shadow-3, .sm\:drop-shadow-4, .sm\:drop-shadow-5, .sm\:drop-shadow-6, .sm\:drop-shadow-0 {
+    --sf-shadow: 0 0 #0000;
+    --sf-shadow-colored: 0 0 #0000;
+    --sf-drop-shadow-color: var(--sf-black-r) var(--sf-black-g) var(--sf-black-b);
+  }
+  .sm\:drop-shadow-1, .sm\:drop-shadow-2, .sm\:drop-shadow-3, .sm\:drop-shadow-4, .sm\:drop-shadow-5, .sm\:drop-shadow-6, .sm\:drop-shadow-0 {
+    filter: var(--sf-drop-shadow);
+  }
+  .sm\:drop-shadow-1 {
+    --sf-drop-shadow: drop-shadow(var(--sf-0) var(--sf-px) var(--sf-px) rgb(var(--sf-drop-shadow-color) / 0.05));
+  }
+  .sm\:drop-shadow-2 {
+    --sf-drop-shadow: drop-shadow(var(--sf-0) var(--sf-px) var(--sf-a2) rgb(var(--sf-drop-shadow-color) / 0.1)) drop-shadow(var(--sf-0) var(--sf-px) var(--sf-px) rgb(var(--sf-drop-shadow-color) / 0.06));
+  }
+  .sm\:drop-shadow-3 {
+    --sf-drop-shadow: drop-shadow(var(--sf-0) var(--sf-a4) var(--sf-a3) rgb(var(--sf-drop-shadow-color) / 0.07)) drop-shadow(var(--sf-0) var(--sf-a2) var(--sf-a2) rgb(var(--sf-drop-shadow-color) / 0.06));
+  }
+  .sm\:drop-shadow-4 {
+    --sf-drop-shadow: drop-shadow(var(--sf-0) var(--sf-b0) var(--sf-a8) rgb(var(--sf-drop-shadow-color) / 0.04)) drop-shadow(var(--sf-0) var(--sf-a4) var(--sf-a3) rgb(var(--sf-drop-shadow-color) / 0.1));
+  }
+  .sm\:drop-shadow-5 {
+    --sf-drop-shadow: drop-shadow(var(--sf-0) var(--sf-c0) var(--sf-b3) rgb(var(--sf-drop-shadow-color) / 0.03)) drop-shadow(var(--sf-0) var(--sf-a8) var(--sf-a5) rgb(var(--sf-drop-shadow-color) / 0.08));
+  }
+  .sm\:drop-shadow-6 {
+    --sf-drop-shadow: drop-shadow(var(--sf-0) var(--sf-c2) var(--sf-c2) rgb(var(--sf-drop-shadow-color) / 0.15));
+  }
+  .sm\:drop-shadow-0 {
+    --sf-drop-shadow: drop-shadow(var(--sf-0) var(--sf-0) #0000);
+  }
+}

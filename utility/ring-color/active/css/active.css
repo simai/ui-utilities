@@ -1,0 +1,59 @@
+.active\:ring-main:active {
+  --sf-ring-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-ring--alfa));
+}
+
+.active\:ring-spare:active {
+  --sf-ring-color: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-ring--alfa));
+}
+
+.active\:ring-extra:active {
+  --sf-ring-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-ring--alfa));
+}
+
+.active\:ring-placeholder:active {
+  --sf-ring-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-ring--alfa));
+}
+
+.active\:ring-disabled:active {
+  --sf-ring-color: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-ring--alfa));
+}
+
+.active\:ring-inverse:active {
+  --sf-ring-color: rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-ring--alfa));
+}
+
+.active\:ring-info:active {
+  --sf-ring-color: rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b), var(--sf-ring--alfa));
+}
+
+.active\:ring-success:active {
+  --sf-ring-color: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-ring--alfa));
+}
+
+.active\:ring-warning:active {
+  --sf-ring-color: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-ring--alfa));
+}
+
+.active\:ring-danger:active {
+  --sf-ring-color: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-ring--alfa));
+}
+
+.active\:ring-white:active {
+  --sf-ring-color: rgba(var(--sf-white-default), var(--sf-white-default), var(--sf-white-default), var(--sf-ring--alfa));
+}
+
+.active\:ring-black:active {
+  --sf-ring-color: rgba(var(--sf-black-default), var(--sf-black-default), var(--sf-black-default), var(--sf-ring--alfa));
+}
+
+.active\:ring-inherit:active {
+  --sf-ring-color: inherit;
+}
+
+.active\:ring-transparent:active {
+  --sf-ring-color: var(--sf-transparent);
+}
+
+.active\:ring-current:active {
+  --sf-ring-color: currentColor;
+}

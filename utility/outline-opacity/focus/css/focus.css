@@ -1,0 +1,43 @@
+.focus\:outline-opacity-1:focus {
+  --sf-outline--alfa:0.1;
+}
+
+.focus\:outline-opacity-2:focus {
+  --sf-outline--alfa:0.2;
+}
+
+.focus\:outline-opacity-3:focus {
+  --sf-outline--alfa:0.3;
+}
+
+.focus\:outline-opacity-4:focus {
+  --sf-outline--alfa:0.4;
+}
+
+.focus\:outline-opacity-5:focus {
+  --sf-outline--alfa:0.5;
+}
+
+.focus\:outline-opacity-6:focus {
+  --sf-outline--alfa:0.6;
+}
+
+.focus\:outline-opacity-7:focus {
+  --sf-outline--alfa:0.7;
+}
+
+.focus\:outline-opacity-8:focus {
+  --sf-outline--alfa:0.8;
+}
+
+.focus\:outline-opacity-9:focus {
+  --sf-outline--alfa:0.9;
+}
+
+.focus\:outline-opacity-full:focus {
+  --sf-outline--alfa:1;
+}
+
+.focus\:outline-opacity-0:focus {
+  --sf-outline--alfa:0;
+}

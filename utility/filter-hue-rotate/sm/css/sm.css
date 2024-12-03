@@ -1,0 +1,32 @@
+@media (min-width: 576px) {
+  .sm\:hue-rotate-1, .sm\:hue-rotate-2, .sm\:hue-rotate-3, .sm\:hue-rotate-4, .sm\:hue-rotate-5, .sm\:hue-rotate-0 {
+    --sf-blur: ;
+    --sf-brightness: ;
+    --sf-contrast: ;
+    --sf-grayscale: ;
+    --sf-hue-rotate: ;
+    --sf-invert: ;
+    --sf-saturate: ;
+    --sf-sepia: ;
+    --sf-drop-shadow: ;
+    filter: var(--sf-blur) var(--sf-brightness) var(--sf-contrast) var(--sf-grayscale) var(--sf-hue-rotate) var(--sf-invert) var(--sf-saturate) var(--sf-sepia) var(--sf-drop-shadow);
+  }
+  .sm\:hue-rotate-1 {
+    --sf-hue-rotate: hue-rotate(15deg);
+  }
+  .sm\:hue-rotate-2 {
+    --sf-hue-rotate: hue-rotate(30deg);
+  }
+  .sm\:hue-rotate-3 {
+    --sf-hue-rotate: hue-rotate(60deg);
+  }
+  .sm\:hue-rotate-4 {
+    --sf-hue-rotate: hue-rotate(90deg);
+  }
+  .sm\:hue-rotate-5 {
+    --sf-hue-rotate: hue-rotate(180deg);
+  }
+  .sm\:hue-rotate-0 {
+    --sf-hue-rotate: hue-rotate(0deg);
+  }
+}

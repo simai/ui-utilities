@@ -1,0 +1,20 @@
+@media (min-width: 576px) {
+  .sm\:max-container-1 .container {
+    max-width: 960px;
+  }
+  .sm\:max-container-2 .container {
+    max-width: 1080px;
+  }
+  .sm\:max-container-3 .container {
+    max-width: 1200px;
+  }
+  .sm\:max-container-4 .container {
+    max-width: 1320px;
+  }
+  .sm\:max-container-5 .container {
+    max-width: 1560px;
+  }
+  .sm\:max-container-6 .container {
+    max-width: 1680px;
+  }
+}

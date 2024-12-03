@@ -1,0 +1,8 @@
+@media (min-width: 1200px) {
+  .xl\:box-border {
+    box-sizing: border-box;
+  }
+  .xl\:box-content {
+    box-sizing: content-box;
+  }
+}

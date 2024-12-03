@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+  .lg\:max-container-1 .container {
+    max-width: 960px;
+  }
+  .lg\:max-container-2 .container {
+    max-width: 1080px;
+  }
+  .lg\:max-container-3 .container {
+    max-width: 1200px;
+  }
+  .lg\:max-container-4 .container {
+    max-width: 1320px;
+  }
+  .lg\:max-container-5 .container {
+    max-width: 1560px;
+  }
+  .lg\:max-container-6 .container {
+    max-width: 1680px;
+  }
+}

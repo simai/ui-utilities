@@ -1,0 +1,39 @@
+.lg\:num-ordinal, .lg\:num-slashed-zero, .lg\:num-lining, .lg\:num-oldstyle, .lg\:num-proportional, .lg\:num-tabular, .lg\:num-diagonal, .lg\:num-stacked-fractions, .lg\:num-normal {
+  --sf-text--num-ordinal: var(--sf-empty);
+  --sf-text--num-zero: var(--sf-empty);
+  --sf-text--num-figure: var(--sf-empty);
+  --sf-text--num-spacing: var(--sf-empty);
+  --sf-text--num-fraction: var(--sf-empty);
+  font-feature-settings: var(--sf-text--num-ordinal) var(--sf-text--num-zero) var(--sf-text--num-figure) var(--sf-text--num-spacing) var(--sf-text--num-fraction);
+  font-variant-numeric: var(--sf-text--num-ordinal) var(--sf-text--num-zero) var(--sf-text--num-figure) var(--sf-text--num-spacing) var(--sf-text--num-fraction);
+}
+
+@media (min-width: 992px) {
+  .lg\:num-ordinal {
+    --sf-text-num-ordinal:ordinal;
+  }
+  .lg\:num-slashed-zero {
+    --sf-text-num-slashed-zero:slashed-zero;
+  }
+  .lg\:num-lining {
+    --sf-text-num-lining:lining-nums;
+  }
+  .lg\:num-oldstyle {
+    --sf-text-num-oldstyle:oldstyle-nums;
+  }
+  .lg\:num-proportional {
+    --sf-text-num-proportional:proportional-nums;
+  }
+  .lg\:num-tabular {
+    --sf-text-num-tabular:tabular-nums;
+  }
+  .lg\:num-diagonal {
+    --sf-text-num-diagonal:diagonal-fractions;
+  }
+  .lg\:num-stacked-fractions {
+    --sf-text-num-stacked-fractions:stacked-fractions;
+  }
+  .lg\:num-normal {
+    --sf-text-num-normal:normal;
+  }
+}

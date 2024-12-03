@@ -1,0 +1,39 @@
+.xl\:num-ordinal, .xl\:num-slashed-zero, .xl\:num-lining, .xl\:num-oldstyle, .xl\:num-proportional, .xl\:num-tabular, .xl\:num-diagonal, .xl\:num-stacked-fractions, .xl\:num-normal {
+  --sf-text--num-ordinal: var(--sf-empty);
+  --sf-text--num-zero: var(--sf-empty);
+  --sf-text--num-figure: var(--sf-empty);
+  --sf-text--num-spacing: var(--sf-empty);
+  --sf-text--num-fraction: var(--sf-empty);
+  font-feature-settings: var(--sf-text--num-ordinal) var(--sf-text--num-zero) var(--sf-text--num-figure) var(--sf-text--num-spacing) var(--sf-text--num-fraction);
+  font-variant-numeric: var(--sf-text--num-ordinal) var(--sf-text--num-zero) var(--sf-text--num-figure) var(--sf-text--num-spacing) var(--sf-text--num-fraction);
+}
+
+@media (min-width: 1200px) {
+  .xl\:num-ordinal {
+    --sf-text-num-ordinal:ordinal;
+  }
+  .xl\:num-slashed-zero {
+    --sf-text-num-slashed-zero:slashed-zero;
+  }
+  .xl\:num-lining {
+    --sf-text-num-lining:lining-nums;
+  }
+  .xl\:num-oldstyle {
+    --sf-text-num-oldstyle:oldstyle-nums;
+  }
+  .xl\:num-proportional {
+    --sf-text-num-proportional:proportional-nums;
+  }
+  .xl\:num-tabular {
+    --sf-text-num-tabular:tabular-nums;
+  }
+  .xl\:num-diagonal {
+    --sf-text-num-diagonal:diagonal-fractions;
+  }
+  .xl\:num-stacked-fractions {
+    --sf-text-num-stacked-fractions:stacked-fractions;
+  }
+  .xl\:num-normal {
+    --sf-text-num-normal:normal;
+  }
+}

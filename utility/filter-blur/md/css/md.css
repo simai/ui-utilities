@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+  .md\:blur-1, .md\:blur-2, .md\:blur-3, .md\:blur-4, .md\:blur-5, .md\:blur-6, .md\:blur-7, .md\:blur-0 {
+    --sf-blur: ;
+    --sf-brightness: ;
+    --sf-contrast: ;
+    --sf-grayscale: ;
+    --sf-hue-rotate: ;
+    --sf-invert: ;
+    --sf-saturate: ;
+    --sf-sepia: ;
+    --sf-drop-shadow: ;
+    filter: var(--sf-blur) var(--sf-brightness) var(--sf-contrast) var(--sf-grayscale) var(--sf-hue-rotate) var(--sf-invert) var(--sf-saturate) var(--sf-sepia) var(--sf-drop-shadow);
+  }
+  .md\:blur-1 {
+    --sf-blur: blur(var(--sf-a1));
+  }
+  .md\:blur-2 {
+    --sf-blur: blur(var(--sf-a2));
+  }
+  .md\:blur-3 {
+    --sf-blur: blur(var(--sf-a4));
+  }
+  .md\:blur-4 {
+    --sf-blur: blur(var(--sf-a8));
+  }
+  .md\:blur-5 {
+    --sf-blur: blur(var(--sf-b6));
+  }
+  .md\:blur-6 {
+    --sf-blur: blur(var(--sf-c2));
+  }
+  .md\:blur-7 {
+    --sf-blur: blur(var(--sf-c6));
+  }
+  .md\:blur-0 {
+    --sf-blur: blur(var(--sf-0));
+  }
+}

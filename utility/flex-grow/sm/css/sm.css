@@ -1,0 +1,6 @@
+@media (min-width: 540px) {
+  .sm\:grow {
+    flex-grow: 1; }
+  .sm\:grow-none {
+    flex-grow: 0; } }
+

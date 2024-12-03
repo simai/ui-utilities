@@ -1,0 +1,59 @@
+.hover\:bg-main:hover {
+  background-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-spare:hover {
+  background-color: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-extra:hover {
+  background-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-placeholder:hover {
+  background-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-disabled:hover {
+  background-color: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-inverse:hover {
+  background-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-info:hover {
+  background-color: rgba(var(--sf-blue-1r), var(--sf-blue-1g), var(--sf-blue-1b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-success:hover {
+  background-color: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-warning:hover {
+  background-color: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-danger:hover {
+  background-color: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-white:hover {
+  background-color: rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-black:hover {
+  background-color: rgba(var(--sf-black-r), var(--sf-black-g), var(--sf-black-b), var(--sf-bg--alfa));
+}
+
+.hover\:bg-inherit:hover {
+  background-color: inherit;
+}
+
+.hover\:bg-transparent:hover {
+  background-color: var(--sf-transparent);
+}
+
+.hover\:bg-current:hover {
+  background-color: currentColor;
+}

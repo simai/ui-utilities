@@ -1,0 +1,7 @@
+.mark {
+  position: relative;
+  white-space: pre-wrap;
+  background-color: var(--sf-text--mark-bg);
+  font-weight: inherit;
+  font-style: inherit;
+}

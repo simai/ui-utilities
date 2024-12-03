@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+  .xl\:bg-opacity-1 {
+    --sf-bg--alfa:0.1;
+  }
+  .xl\:bg-opacity-2 {
+    --sf-bg--alfa:0.2;
+  }
+  .xl\:bg-opacity-3 {
+    --sf-bg--alfa:0.3;
+  }
+  .xl\:bg-opacity-4 {
+    --sf-bg--alfa:0.4;
+  }
+  .xl\:bg-opacity-5 {
+    --sf-bg--alfa:0.5;
+  }
+  .xl\:bg-opacity-6 {
+    --sf-bg--alfa:0.6;
+  }
+  .xl\:bg-opacity-7 {
+    --sf-bg--alfa:0.7;
+  }
+  .xl\:bg-opacity-8 {
+    --sf-bg--alfa:0.8;
+  }
+  .xl\:bg-opacity-9 {
+    --sf-bg--alfa:0.9;
+  }
+  .xl\:bg-opacity-full {
+    --sf-bg--alfa:1;
+  }
+  .xl\:bg-opacity-0 {
+    --sf-bg--alfa:0;
+  }
+}

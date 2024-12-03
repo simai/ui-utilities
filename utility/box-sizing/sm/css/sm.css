@@ -1,0 +1,8 @@
+@media (min-width: 576px) {
+  .sm\:box-border {
+    box-sizing: border-box;
+  }
+  .sm\:box-content {
+    box-sizing: content-box;
+  }
+}

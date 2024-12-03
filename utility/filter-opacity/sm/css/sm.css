@@ -1,0 +1,35 @@
+@media (min-width: 576px) {
+  .sm\:opacity-1 {
+    filter: opacity(0.1);
+  }
+  .sm\:opacity-2 {
+    filter: opacity(0.2);
+  }
+  .sm\:opacity-3 {
+    filter: opacity(0.3);
+  }
+  .sm\:opacity-4 {
+    filter: opacity(0.4);
+  }
+  .sm\:opacity-5 {
+    filter: opacity(0.5);
+  }
+  .sm\:opacity-6 {
+    filter: opacity(0.6);
+  }
+  .sm\:opacity-7 {
+    filter: opacity(0.7);
+  }
+  .sm\:opacity-8 {
+    filter: opacity(0.8);
+  }
+  .sm\:opacity-9 {
+    filter: opacity(0.9);
+  }
+  .sm\:opacity-0 {
+    filter: opacity(0);
+  }
+  .sm\:opacity-full {
+    filter: opacity(1);
+  }
+}

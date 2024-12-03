@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+  .md\:box-border {
+    box-sizing: border-box;
+  }
+  .md\:box-content {
+    box-sizing: content-box;
+  }
+}

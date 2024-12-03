@@ -1,0 +1,10 @@
+@media (min-width: 1200px) {
+  .xl\:box-slice {
+    -webkit-box-decoration-break: slice;
+            box-decoration-break: slice;
+  }
+  .xl\:box-clone {
+    -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+  }
+}

@@ -1,0 +1,14 @@
+@media (min-width: 576px) {
+  .sm\:before-none::before {
+    content: none;
+  }
+  .sm\:after-none::after {
+    content: none;
+  }
+  .sm\:before-empty::before {
+    content: '';
+  }
+  .sm\:after-empty::after {
+    content: '';
+  }
+}

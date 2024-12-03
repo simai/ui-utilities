@@ -1,0 +1,43 @@
+.focus\:color-opacity-1:focus {
+  --sf-color--alfa: 0.1;
+}
+
+.focus\:color-opacity-2:focus {
+  --sf-color--alfa: 0.2;
+}
+
+.focus\:color-opacity-3:focus {
+  --sf-color--alfa: 0.3;
+}
+
+.focus\:color-opacity-4:focus {
+  --sf-color--alfa: 0.4;
+}
+
+.focus\:color-opacity-5:focus {
+  --sf-color--alfa: 0.5;
+}
+
+.focus\:color-opacity-6:focus {
+  --sf-color--alfa: 0.6;
+}
+
+.focus\:color-opacity-7:focus {
+  --sf-color--alfa: 0.7;
+}
+
+.focus\:color-opacity-8:focus {
+  --sf-color--alfa: 0.8;
+}
+
+.focus\:color-opacity-9:focus {
+  --sf-color--alfa: 0.9;
+}
+
+.focus\:color-opacity-0:focus {
+  --sf-color--alfa: 0;
+}
+
+.focus\:color-opacity-full:focus {
+  --sf-color--alfa: 1;
+}

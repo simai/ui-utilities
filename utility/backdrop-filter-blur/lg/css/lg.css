@@ -1,0 +1,38 @@
+@media (min-width: 992px) {
+  .lg\:backdrop-blur-1, .lg\:backdrop-blur-2, .lg\:backdrop-blur-3, .lg\:backdrop-blur-4, .lg\:backdrop-blur-5, .lg\:backdrop-blur-6, .lg\:backdrop-blur-7, .lg\:backdrop-blur-0 {
+    --sf-backdrop-blur: ;
+    --sf-backdrop-brightness: ;
+    --sf-backdrop-contrast: ;
+    --sf-backdrop-grayscale: ;
+    --sf-backdrop-hue-rotate: ;
+    --sf-backdrop-invert: ;
+    --sf-backdrop-opacity: ;
+    --sf-backdrop-saturate: ;
+    --sf-backdrop-sepia: ;
+    backdrop-filter: var(--sf-backdrop-blur) var(--sf-backdrop-brightness) var(--sf-backdrop-contrast) var(--sf-backdrop-grayscale) var(--sf-backdrop-hue-rotate) var(--sf-backdrop-invert) var(--sf-backdrop-opacity) var(--sf-backdrop-saturate) var(--sf-backdrop-sepia);
+  }
+  .lg\:backdrop-blur-1 {
+    --sf-backdrop-blur: blur(var(--sf-a1));
+  }
+  .lg\:backdrop-blur-2 {
+    --sf-backdrop-blur: blur(var(--sf-a2));
+  }
+  .lg\:backdrop-blur-3 {
+    --sf-backdrop-blur: blur(var(--sf-a4));
+  }
+  .lg\:backdrop-blur-4 {
+    --sf-backdrop-blur: blur(var(--sf-a8));
+  }
+  .lg\:backdrop-blur-5 {
+    --sf-backdrop-blur: blur(var(--sf-b6));
+  }
+  .lg\:backdrop-blur-6 {
+    --sf-backdrop-blur: blur(var(--sf-c2));
+  }
+  .lg\:backdrop-blur-7 {
+    --sf-backdrop-blur: blur(var(--sf-c6));
+  }
+  .lg\:backdrop-blur-0 {
+    --sf-backdrop-blur: blur(var(--sf-0));
+  }
+}

@@ -1,0 +1,43 @@
+.hover\:color-opacity-1:hover {
+  --sf-color--alfa: 0.1;
+}
+
+.hover\:color-opacity-2:hover {
+  --sf-color--alfa: 0.2;
+}
+
+.hover\:color-opacity-3:hover {
+  --sf-color--alfa: 0.3;
+}
+
+.hover\:color-opacity-4:hover {
+  --sf-color--alfa: 0.4;
+}
+
+.hover\:color-opacity-5:hover {
+  --sf-color--alfa: 0.5;
+}
+
+.hover\:color-opacity-6:hover {
+  --sf-color--alfa: 0.6;
+}
+
+.hover\:color-opacity-7:hover {
+  --sf-color--alfa: 0.7;
+}
+
+.hover\:color-opacity-8:hover {
+  --sf-color--alfa: 0.8;
+}
+
+.hover\:color-opacity-9:hover {
+  --sf-color--alfa: 0.9;
+}
+
+.hover\:color-opacity-0:hover {
+  --sf-color--alfa: 0;
+}
+
+.hover\:color-opacity-full:hover {
+  --sf-color--alfa: 1;
+}

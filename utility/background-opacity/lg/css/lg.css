@@ -1,0 +1,35 @@
+@media (min-width: 992px) {
+  .lg\:bg-opacity-1 {
+    --sf-bg--alfa:0.1;
+  }
+  .lg\:bg-opacity-2 {
+    --sf-bg--alfa:0.2;
+  }
+  .lg\:bg-opacity-3 {
+    --sf-bg--alfa:0.3;
+  }
+  .lg\:bg-opacity-4 {
+    --sf-bg--alfa:0.4;
+  }
+  .lg\:bg-opacity-5 {
+    --sf-bg--alfa:0.5;
+  }
+  .lg\:bg-opacity-6 {
+    --sf-bg--alfa:0.6;
+  }
+  .lg\:bg-opacity-7 {
+    --sf-bg--alfa:0.7;
+  }
+  .lg\:bg-opacity-8 {
+    --sf-bg--alfa:0.8;
+  }
+  .lg\:bg-opacity-9 {
+    --sf-bg--alfa:0.9;
+  }
+  .lg\:bg-opacity-full {
+    --sf-bg--alfa:1;
+  }
+  .lg\:bg-opacity-0 {
+    --sf-bg--alfa:0;
+  }
+}

@@ -1,0 +1,29 @@
+@media (min-width: 1200px) {
+  .xl\:saturate-1, .xl\:saturate-2, .xl\:saturate-3, .xl\:saturate-4, .xl\:saturate-0 {
+    --sf-blur: ;
+    --sf-brightness: ;
+    --sf-contrast: ;
+    --sf-grayscale: ;
+    --sf-hue-rotate: ;
+    --sf-invert: ;
+    --sf-saturate: ;
+    --sf-sepia: ;
+    --sf-drop-shadow: ;
+    filter: var(--sf-blur) var(--sf-brightness) var(--sf-contrast) var(--sf-grayscale) var(--sf-hue-rotate) var(--sf-invert) var(--sf-saturate) var(--sf-sepia) var(--sf-drop-shadow);
+  }
+  .xl\:saturate-1 {
+    --sf-saturate: saturate(0.5);
+  }
+  .xl\:saturate-2 {
+    --sf-saturate: saturate(1);
+  }
+  .xl\:saturate-3 {
+    --sf-saturate: saturate(1.5);
+  }
+  .xl\:saturate-4 {
+    --sf-saturate: saturate(2);
+  }
+  .xl\:saturate-0 {
+    --sf-saturate: saturate(0);
+  }
+}

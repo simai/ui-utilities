@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+  .xl\:duration-1 {
+    transition-duration: 75ms;
+  }
+  .xl\:duration-2 {
+    transition-duration: 100ms;
+  }
+  .xl\:duration-3 {
+    transition-duration: 150ms;
+  }
+  .xl\:duration-4 {
+    transition-duration: 200ms;
+  }
+  .xl\:duration-5 {
+    transition-duration: 300ms;
+  }
+  .xl\:duration-6 {
+    transition-duration: 500ms;
+  }
+  .xl\:duration-7 {
+    transition-duration: 700ms;
+  }
+  .xl\:duration-8 {
+    transition-duration: 1s;
+  }
+  .xl\:duration-9 {
+    transition-duration: 2s;
+  }
+  .xl\:duration-0 {
+    transition-duration: 0s;
+  }
+}

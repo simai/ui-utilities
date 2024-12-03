@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+  .lg\:before-none::before {
+    content: none;
+  }
+  .lg\:after-none::after {
+    content: none;
+  }
+  .lg\:before-empty::before {
+    content: '';
+  }
+  .lg\:after-empty::after {
+    content: '';
+  }
+}

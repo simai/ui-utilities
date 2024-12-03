@@ -1,0 +1,59 @@
+.focus\:ring-main:focus {
+  --sf-ring-color: rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-spare:focus {
+  --sf-ring-color: rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-extra:focus {
+  --sf-ring-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-placeholder:focus {
+  --sf-ring-color: rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-disabled:focus {
+  --sf-ring-color: rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-inverse:focus {
+  --sf-ring-color: rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-info:focus {
+  --sf-ring-color: rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-success:focus {
+  --sf-ring-color: rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-warning:focus {
+  --sf-ring-color: rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-danger:focus {
+  --sf-ring-color: rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-ring--alfa));
+}
+
+.focus\:ring-white:focus {
+  --sf-ring-color: rgba(var(--sf-white-default), var(--sf-white-default), var(--sf-white-default), var(--sf-ring--alfa));
+}
+
+.focus\:ring-black:focus {
+  --sf-ring-color: rgba(var(--sf-black-default), var(--sf-black-default), var(--sf-black-default), var(--sf-ring--alfa));
+}
+
+.focus\:ring-inherit:focus {
+  --sf-ring-color: inherit;
+}
+
+.focus\:ring-transparent:focus {
+  --sf-ring-color: var(--sf-transparent);
+}
+
+.focus\:ring-current:focus {
+  --sf-ring-color: currentColor;
+}

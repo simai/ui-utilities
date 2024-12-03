@@ -1,0 +1,59 @@
+.focus\:ring-offset-main:focus {
+  --sf-ring-offset-color:rgba(var(--sf-gray-9r), var(--sf-gray-9g), var(--sf-gray-9b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-spare:focus {
+  --sf-ring-offset-color:rgba(var(--sf-gray-6r), var(--sf-gray-6g), var(--sf-gray-6b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-extra:focus {
+  --sf-ring-offset-color:rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-placeholder:focus {
+  --sf-ring-offset-color:rgba(var(--sf-gray-5r), var(--sf-gray-5g), var(--sf-gray-5b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-disabled:focus {
+  --sf-ring-offset-color:rgba(var(--sf-gray-4r), var(--sf-gray-4g), var(--sf-gray-4b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-inverse:focus {
+  --sf-ring-offset-color:rgba(var(--sf-white-r), var(--sf-white-g), var(--sf-white-b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-info:focus {
+  --sf-ring-offset-color:rgba(var(--sf-blue-5r), var(--sf-blue-5g), var(--sf-blue-5b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-success:focus {
+  --sf-ring-offset-color:rgba(var(--sf-green-6r), var(--sf-green-6g), var(--sf-green-6b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-warning:focus {
+  --sf-ring-offset-color:rgba(var(--sf-yellow-8r), var(--sf-yellow-8g), var(--sf-yellow-8b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-danger:focus {
+  --sf-ring-offset-color:rgba(var(--sf-red-6r), var(--sf-red-6g), var(--sf-red-6b), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-white:focus {
+  --sf-ring-offset-color:rgba(var(--sf-white-default), var(--sf-white-default), var(--sf-white-default), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-black:focus {
+  --sf-ring-offset-color:rgba(var(--sf-black-default), var(--sf-black-default), var(--sf-black-default), var(--sf-divider--alfa));
+}
+
+.focus\:ring-offset-inherit:focus {
+  --sf-ring-offset-color:inherit;
+}
+
+.focus\:ring-offset-transparent:focus {
+  --sf-ring-offset-color:var(--sf-transparent);
+}
+
+.focus\:ring-offset-current:focus {
+  --sf-ring-offset-color:currentColor;
+}

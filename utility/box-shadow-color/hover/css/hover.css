@@ -1,0 +1,115 @@
+.hover\:shadow-surface-highest:hover {
+  --sf-shadow-color:var(--sf-color--surface-highest); }
+
+.hover\:shadow-surface-high:hover {
+  --sf-shadow-color:var(--sf-color--surface-high); }
+
+.hover\:shadow-surface-default:hover {
+  --sf-shadow-color:var(--sf-color--surface-default); }
+
+.hover\:shadow-surface-low:hover {
+  --sf-shadow-color:var(--sf-color--surface-low); }
+
+.hover\:shadow-surface-lowest:hover {
+  --sf-shadow-color:var(--sf-color--surface-lowest); }
+
+.hover\:shadow-surface-inverse:hover {
+  --sf-shadow-color:var(--sf-color--surface-inverse); }
+
+.hover\:shadow-surface-variant:hover {
+  --sf-shadow-color:var(--sf-color--surface-variant); }
+
+.hover\:shadow-primary-default:hover {
+  --sf-shadow-color:var(--sf-color--primary-default); }
+
+.hover\:shadow-primary-tonal:hover {
+  --sf-shadow-color:var(--sf-color--primary-tonal); }
+
+.hover\:shadow-primary-inverse:hover {
+  --sf-shadow-color:var(--sf-color--primary-inverse); }
+
+.hover\:shadow-primary-contrast:hover {
+  --sf-shadow-color:var(--sf-color--primary-text); }
+
+.hover\:shadow-secondary-default:hover {
+  --sf-shadow-color:var(--sf-color--secondary-default); }
+
+.hover\:shadow-secondary-tonal:hover {
+  --sf-shadow-color:var(--sf-color--secondary-tonal); }
+
+.hover\:shadow-secondary-inverse:hover {
+  --sf-shadow-color:var(--sf-color--secondary-inverse); }
+
+.hover\:shadow-secondary-contrast:hover {
+  --sf-shadow-color:var(--sf-color--secondary-text); }
+
+.hover\:shadow-tertiary-default:hover {
+  --sf-shadow-color:var(--sf-color--tertiary-default); }
+
+.hover\:shadow-tertiary-tonal:hover {
+  --sf-shadow-color:var(--sf-color--tertiary-tonal); }
+
+.hover\:shadow-tertiary-inverse:hover {
+  --sf-shadow-color:var(--sf-color--tertiary-inverse); }
+
+.hover\:shadow-tertiary-contrast:hover {
+  --sf-shadow-color:var(--sf-color--tertiary-text); }
+
+.hover\:shadow-info-default:hover {
+  --sf-shadow-color:var(--sf-color--info-primary); }
+
+.hover\:shadow-info-tonal:hover {
+  --sf-shadow-color:var(--sf-color--info-tonal); }
+
+.hover\:shadow-info-inverse:hover {
+  --sf-shadow-color:var(--sf-color--info-inverse); }
+
+.hover\:shadow-info-contrast:hover {
+  --sf-shadow-color:var(--sf-color--info-text); }
+
+.hover\:shadow-success-default:hover {
+  --sf-shadow-color:var(--sf-color--success-primary); }
+
+.hover\:shadow-success-tonal:hover {
+  --sf-shadow-color:var(--sf-color--success-tonal); }
+
+.hover\:shadow-success-inverse:hover {
+  --sf-shadow-color:var(--sf-color--success-inverse); }
+
+.hover\:shadow-success-contrast:hover {
+  --sf-shadow-color:var(--sf-color--success-text); }
+
+.hover\:shadow-warning-default:hover {
+  --sf-shadow-color:var(--sf-color--warning-primary); }
+
+.hover\:shadow-warning-tonal:hover {
+  --sf-shadow-color:var(--sf-color--warning-tonal); }
+
+.hover\:shadow-warning-inverse:hover {
+  --sf-shadow-color:var(--sf-color--warning-inverse); }
+
+.hover\:shadow-warning-contrast:hover {
+  --sf-shadow-color:var(--sf-color--warning-text); }
+
+.hover\:shadow-danger-default:hover {
+  --sf-shadow-color:var(--sf-color--danger-primary); }
+
+.hover\:shadow-danger-tonal:hover {
+  --sf-shadow-color:var(--sf-color--danger-tonal); }
+
+.hover\:shadow-danger-inverse:hover {
+  --sf-shadow-color:var(--sf-color--danger-inverse); }
+
+.hover\:shadow-danger-contrast:hover {
+  --sf-shadow-color:var(--sf-color--danger-text); }
+
+.hover\:shadow-transparent:hover {
+  --sf-shadow-color:var(--sf-transparent);
+}
+
+.hover\:shadow-current:hover {
+  --sf-shadow-color:var(--sf-current); }
+
+.hover\:shadow-inherit:hover {
+  --sf-shadow-color:var(--sf-inherit); }
+

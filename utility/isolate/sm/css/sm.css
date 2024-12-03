@@ -1,0 +1,6 @@
+@media (min-width: 540px) {
+  .sm\:isolate {
+    isolation: isolate; }
+  .sm\:auto {
+    isolation: auto; } }
+

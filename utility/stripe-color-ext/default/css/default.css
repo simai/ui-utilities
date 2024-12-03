@@ -1,0 +1,479 @@
+.stripe-gray-0 {
+  --sf-stripe--color-r: var(--sf-gray-0r);
+  --sf-stripe--color-g: var(--sf-gray-0g);
+  --sf-stripe--color-b: var(--sf-gray-0b);
+}
+
+.stripe-gray-1 {
+  --sf-stripe--color-r: var(--sf-gray-1r);
+  --sf-stripe--color-g: var(--sf-gray-1g);
+  --sf-stripe--color-b: var(--sf-gray-1b);
+}
+
+.stripe-gray-2 {
+  --sf-stripe--color-r: var(--sf-gray-2r);
+  --sf-stripe--color-g: var(--sf-gray-2g);
+  --sf-stripe--color-b: var(--sf-gray-2b);
+}
+
+.stripe-gray-3 {
+  --sf-stripe--color-r: var(--sf-gray-3r);
+  --sf-stripe--color-g: var(--sf-gray-3g);
+  --sf-stripe--color-b: var(--sf-gray-3b);
+}
+
+.stripe-gray-4 {
+  --sf-stripe--color-r: var(--sf-gray-4r);
+  --sf-stripe--color-g: var(--sf-gray-4g);
+  --sf-stripe--color-b: var(--sf-gray-4b);
+}
+
+.stripe-gray-5 {
+  --sf-stripe--color-r: var(--sf-gray-5r);
+  --sf-stripe--color-g: var(--sf-gray-5g);
+  --sf-stripe--color-b: var(--sf-gray-5b);
+}
+
+.stripe-gray-6 {
+  --sf-stripe--color-r: var(--sf-gray-6r);
+  --sf-stripe--color-g: var(--sf-gray-6g);
+  --sf-stripe--color-b: var(--sf-gray-6b);
+}
+
+.stripe-gray-7 {
+  --sf-stripe--color-r: var(--sf-gray-7r);
+  --sf-stripe--color-g: var(--sf-gray-7g);
+  --sf-stripe--color-b: var(--sf-gray-7b);
+}
+
+.stripe-gray-8 {
+  --sf-stripe--color-r: var(--sf-gray-8r);
+  --sf-stripe--color-g: var(--sf-gray-8g);
+  --sf-stripe--color-b: var(--sf-gray-8b);
+}
+
+.stripe-gray-9 {
+  --sf-stripe--color-r: var(--sf-gray-9r);
+  --sf-stripe--color-g: var(--sf-gray-9g);
+  --sf-stripe--color-b: var(--sf-gray-9b);
+}
+
+.stripe-red-0 {
+  --sf-stripe--color-r: var(--sf-red-0r);
+  --sf-stripe--color-g: var(--sf-red-0g);
+  --sf-stripe--color-b: var(--sf-red-0b);
+}
+
+.stripe-red-1 {
+  --sf-stripe--color-r: var(--sf-red-1r);
+  --sf-stripe--color-g: var(--sf-red-1g);
+  --sf-stripe--color-b: var(--sf-red-1b);
+}
+
+.stripe-red-2 {
+  --sf-stripe--color-r: var(--sf-red-2r);
+  --sf-stripe--color-g: var(--sf-red-2g);
+  --sf-stripe--color-b: var(--sf-red-2b);
+}
+
+.stripe-red-3 {
+  --sf-stripe--color-r: var(--sf-red-3r);
+  --sf-stripe--color-g: var(--sf-red-3g);
+  --sf-stripe--color-b: var(--sf-red-3b);
+}
+
+.stripe-red-4 {
+  --sf-stripe--color-r: var(--sf-red-4r);
+  --sf-stripe--color-g: var(--sf-red-4g);
+  --sf-stripe--color-b: var(--sf-red-4b);
+}
+
+.stripe-red-5 {
+  --sf-stripe--color-r: var(--sf-red-5r);
+  --sf-stripe--color-g: var(--sf-red-5g);
+  --sf-stripe--color-b: var(--sf-red-5b);
+}
+
+.stripe-red-6 {
+  --sf-stripe--color-r: var(--sf-red-6r);
+  --sf-stripe--color-g: var(--sf-red-6g);
+  --sf-stripe--color-b: var(--sf-red-6b);
+}
+
+.stripe-red-7 {
+  --sf-stripe--color-r: var(--sf-red-7r);
+  --sf-stripe--color-g: var(--sf-red-7g);
+  --sf-stripe--color-b: var(--sf-red-7b);
+}
+
+.stripe-red-8 {
+  --sf-stripe--color-r: var(--sf-red-8r);
+  --sf-stripe--color-g: var(--sf-red-8g);
+  --sf-stripe--color-b: var(--sf-red-8b);
+}
+
+.stripe-red-9 {
+  --sf-stripe--color-r: var(--sf-red-9r);
+  --sf-stripe--color-g: var(--sf-red-9g);
+  --sf-stripe--color-b: var(--sf-red-9b);
+}
+
+.stripe-orange-0 {
+  --sf-stripe--color-r: var(--sf-orange-0r);
+  --sf-stripe--color-g: var(--sf-orange-0g);
+  --sf-stripe--color-b: var(--sf-orange-0b);
+}
+
+.stripe-orange-1 {
+  --sf-stripe--color-r: var(--sf-orange-1r);
+  --sf-stripe--color-g: var(--sf-orange-1g);
+  --sf-stripe--color-b: var(--sf-orange-1b);
+}
+
+.stripe-orange-2 {
+  --sf-stripe--color-r: var(--sf-orange-2r);
+  --sf-stripe--color-g: var(--sf-orange-2g);
+  --sf-stripe--color-b: var(--sf-orange-2b);
+}
+
+.stripe-orange-3 {
+  --sf-stripe--color-r: var(--sf-orange-3r);
+  --sf-stripe--color-g: var(--sf-orange-3g);
+  --sf-stripe--color-b: var(--sf-orange-3b);
+}
+
+.stripe-orange-4 {
+  --sf-stripe--color-r: var(--sf-orange-4r);
+  --sf-stripe--color-g: var(--sf-orange-4g);
+  --sf-stripe--color-b: var(--sf-orange-4b);
+}
+
+.stripe-orange-5 {
+  --sf-stripe--color-r: var(--sf-orange-5r);
+  --sf-stripe--color-g: var(--sf-orange-5g);
+  --sf-stripe--color-b: var(--sf-orange-5b);
+}
+
+.stripe-orange-6 {
+  --sf-stripe--color-r: var(--sf-orange-6r);
+  --sf-stripe--color-g: var(--sf-orange-6g);
+  --sf-stripe--color-b: var(--sf-orange-6b);
+}
+
+.stripe-orange-7 {
+  --sf-stripe--color-r: var(--sf-orange-7r);
+  --sf-stripe--color-g: var(--sf-orange-7g);
+  --sf-stripe--color-b: var(--sf-orange-7b);
+}
+
+.stripe-orange-8 {
+  --sf-stripe--color-r: var(--sf-orange-8r);
+  --sf-stripe--color-g: var(--sf-orange-8g);
+  --sf-stripe--color-b: var(--sf-orange-8b);
+}
+
+.stripe-orange-9 {
+  --sf-stripe--color-r: var(--sf-orange-9r);
+  --sf-stripe--color-g: var(--sf-orange-9g);
+  --sf-stripe--color-b: var(--sf-orange-9b);
+}
+
+.stripe-yellow-0 {
+  --sf-stripe--color-r: var(--sf-yellow-0r);
+  --sf-stripe--color-g: var(--sf-yellow-0g);
+  --sf-stripe--color-b: var(--sf-yellow-0b);
+}
+
+.stripe-yellow-1 {
+  --sf-stripe--color-r: var(--sf-yellow-1r);
+  --sf-stripe--color-g: var(--sf-yellow-1g);
+  --sf-stripe--color-b: var(--sf-yellow-1b);
+}
+
+.stripe-yellow-2 {
+  --sf-stripe--color-r: var(--sf-yellow-2r);
+  --sf-stripe--color-g: var(--sf-yellow-2g);
+  --sf-stripe--color-b: var(--sf-yellow-2b);
+}
+
+.stripe-yellow-3 {
+  --sf-stripe--color-r: var(--sf-yellow-3r);
+  --sf-stripe--color-g: var(--sf-yellow-3g);
+  --sf-stripe--color-b: var(--sf-yellow-3b);
+}
+
+.stripe-yellow-4 {
+  --sf-stripe--color-r: var(--sf-yellow-4r);
+  --sf-stripe--color-g: var(--sf-yellow-4g);
+  --sf-stripe--color-b: var(--sf-yellow-4b);
+}
+
+.stripe-yellow-5 {
+  --sf-stripe--color-r: var(--sf-yellow-5r);
+  --sf-stripe--color-g: var(--sf-yellow-5g);
+  --sf-stripe--color-b: var(--sf-yellow-5b);
+}
+
+.stripe-yellow-6 {
+  --sf-stripe--color-r: var(--sf-yellow-6r);
+  --sf-stripe--color-g: var(--sf-yellow-6g);
+  --sf-stripe--color-b: var(--sf-yellow-6b);
+}
+
+.stripe-yellow-7 {
+  --sf-stripe--color-r: var(--sf-yellow-7r);
+  --sf-stripe--color-g: var(--sf-yellow-7g);
+  --sf-stripe--color-b: var(--sf-yellow-7b);
+}
+
+.stripe-yellow-8 {
+  --sf-stripe--color-r: var(--sf-yellow-8r);
+  --sf-stripe--color-g: var(--sf-yellow-8g);
+  --sf-stripe--color-b: var(--sf-yellow-8b);
+}
+
+.stripe-yellow-9 {
+  --sf-stripe--color-r: var(--sf-yellow-9r);
+  --sf-stripe--color-g: var(--sf-yellow-9g);
+  --sf-stripe--color-b: var(--sf-yellow-9b);
+}
+
+.stripe-green-0 {
+  --sf-stripe--color-r: var(--sf-green-0r);
+  --sf-stripe--color-g: var(--sf-green-0g);
+  --sf-stripe--color-b: var(--sf-green-0b);
+}
+
+.stripe-green-1 {
+  --sf-stripe--color-r: var(--sf-green-1r);
+  --sf-stripe--color-g: var(--sf-green-1g);
+  --sf-stripe--color-b: var(--sf-green-1b);
+}
+
+.stripe-green-2 {
+  --sf-stripe--color-r: var(--sf-green-2r);
+  --sf-stripe--color-g: var(--sf-green-2g);
+  --sf-stripe--color-b: var(--sf-green-2b);
+}
+
+.stripe-green-3 {
+  --sf-stripe--color-r: var(--sf-green-3r);
+  --sf-stripe--color-g: var(--sf-green-3g);
+  --sf-stripe--color-b: var(--sf-green-3b);
+}
+
+.stripe-green-4 {
+  --sf-stripe--color-r: var(--sf-green-4r);
+  --sf-stripe--color-g: var(--sf-green-4g);
+  --sf-stripe--color-b: var(--sf-green-4b);
+}
+
+.stripe-green-5 {
+  --sf-stripe--color-r: var(--sf-green-5r);
+  --sf-stripe--color-g: var(--sf-green-5g);
+  --sf-stripe--color-b: var(--sf-green-5b);
+}
+
+.stripe-green-6 {
+  --sf-stripe--color-r: var(--sf-green-6r);
+  --sf-stripe--color-g: var(--sf-green-6g);
+  --sf-stripe--color-b: var(--sf-green-6b);
+}
+
+.stripe-green-7 {
+  --sf-stripe--color-r: var(--sf-green-7r);
+  --sf-stripe--color-g: var(--sf-green-7g);
+  --sf-stripe--color-b: var(--sf-green-7b);
+}
+
+.stripe-green-8 {
+  --sf-stripe--color-r: var(--sf-green-8r);
+  --sf-stripe--color-g: var(--sf-green-8g);
+  --sf-stripe--color-b: var(--sf-green-8b);
+}
+
+.stripe-green-9 {
+  --sf-stripe--color-r: var(--sf-green-9r);
+  --sf-stripe--color-g: var(--sf-green-9g);
+  --sf-stripe--color-b: var(--sf-green-9b);
+}
+
+.stripe-blue-0 {
+  --sf-stripe--color-r: var(--sf-blue-0r);
+  --sf-stripe--color-g: var(--sf-blue-0g);
+  --sf-stripe--color-b: var(--sf-blue-0b);
+}
+
+.stripe-blue-1 {
+  --sf-stripe--color-r: var(--sf-blue-1r);
+  --sf-stripe--color-g: var(--sf-blue-1g);
+  --sf-stripe--color-b: var(--sf-blue-1b);
+}
+
+.stripe-blue-2 {
+  --sf-stripe--color-r: var(--sf-blue-2r);
+  --sf-stripe--color-g: var(--sf-blue-2g);
+  --sf-stripe--color-b: var(--sf-blue-2b);
+}
+
+.stripe-blue-3 {
+  --sf-stripe--color-r: var(--sf-blue-3r);
+  --sf-stripe--color-g: var(--sf-blue-3g);
+  --sf-stripe--color-b: var(--sf-blue-3b);
+}
+
+.stripe-blue-4 {
+  --sf-stripe--color-r: var(--sf-blue-4r);
+  --sf-stripe--color-g: var(--sf-blue-4g);
+  --sf-stripe--color-b: var(--sf-blue-4b);
+}
+
+.stripe-blue-5 {
+  --sf-stripe--color-r: var(--sf-blue-5r);
+  --sf-stripe--color-g: var(--sf-blue-5g);
+  --sf-stripe--color-b: var(--sf-blue-5b);
+}
+
+.stripe-blue-6 {
+  --sf-stripe--color-r: var(--sf-blue-6r);
+  --sf-stripe--color-g: var(--sf-blue-6g);
+  --sf-stripe--color-b: var(--sf-blue-6b);
+}
+
+.stripe-blue-7 {
+  --sf-stripe--color-r: var(--sf-blue-7r);
+  --sf-stripe--color-g: var(--sf-blue-7g);
+  --sf-stripe--color-b: var(--sf-blue-7b);
+}
+
+.stripe-blue-8 {
+  --sf-stripe--color-r: var(--sf-blue-8r);
+  --sf-stripe--color-g: var(--sf-blue-8g);
+  --sf-stripe--color-b: var(--sf-blue-8b);
+}
+
+.stripe-blue-9 {
+  --sf-stripe--color-r: var(--sf-blue-9r);
+  --sf-stripe--color-g: var(--sf-blue-9g);
+  --sf-stripe--color-b: var(--sf-blue-9b);
+}
+
+.stripe-purple-0 {
+  --sf-stripe--color-r: var(--sf-purple-0r);
+  --sf-stripe--color-g: var(--sf-purple-0g);
+  --sf-stripe--color-b: var(--sf-purple-0b);
+}
+
+.stripe-purple-1 {
+  --sf-stripe--color-r: var(--sf-purple-1r);
+  --sf-stripe--color-g: var(--sf-purple-1g);
+  --sf-stripe--color-b: var(--sf-purple-1b);
+}
+
+.stripe-purple-2 {
+  --sf-stripe--color-r: var(--sf-purple-2r);
+  --sf-stripe--color-g: var(--sf-purple-2g);
+  --sf-stripe--color-b: var(--sf-purple-2b);
+}
+
+.stripe-purple-3 {
+  --sf-stripe--color-r: var(--sf-purple-3r);
+  --sf-stripe--color-g: var(--sf-purple-3g);
+  --sf-stripe--color-b: var(--sf-purple-3b);
+}
+
+.stripe-purple-4 {
+  --sf-stripe--color-r: var(--sf-purple-4r);
+  --sf-stripe--color-g: var(--sf-purple-4g);
+  --sf-stripe--color-b: var(--sf-purple-4b);
+}
+
+.stripe-purple-5 {
+  --sf-stripe--color-r: var(--sf-purple-5r);
+  --sf-stripe--color-g: var(--sf-purple-5g);
+  --sf-stripe--color-b: var(--sf-purple-5b);
+}
+
+.stripe-purple-6 {
+  --sf-stripe--color-r: var(--sf-purple-6r);
+  --sf-stripe--color-g: var(--sf-purple-6g);
+  --sf-stripe--color-b: var(--sf-purple-6b);
+}
+
+.stripe-purple-7 {
+  --sf-stripe--color-r: var(--sf-purple-7r);
+  --sf-stripe--color-g: var(--sf-purple-7g);
+  --sf-stripe--color-b: var(--sf-purple-7b);
+}
+
+.stripe-purple-8 {
+  --sf-stripe--color-r: var(--sf-purple-8r);
+  --sf-stripe--color-g: var(--sf-purple-8g);
+  --sf-stripe--color-b: var(--sf-purple-8b);
+}
+
+.stripe-purple-9 {
+  --sf-stripe--color-r: var(--sf-purple-9r);
+  --sf-stripe--color-g: var(--sf-purple-9g);
+  --sf-stripe--color-b: var(--sf-purple-9b);
+}
+
+.stripe-pink-0 {
+  --sf-stripe--color-r: var(--sf-pink-0r);
+  --sf-stripe--color-g: var(--sf-pink-0g);
+  --sf-stripe--color-b: var(--sf-pink-0b);
+}
+
+.stripe-pink-1 {
+  --sf-stripe--color-r: var(--sf-pink-1r);
+  --sf-stripe--color-g: var(--sf-pink-1g);
+  --sf-stripe--color-b: var(--sf-pink-1b);
+}
+
+.stripe-pink-2 {
+  --sf-stripe--color-r: var(--sf-pink-2r);
+  --sf-stripe--color-g: var(--sf-pink-2g);
+  --sf-stripe--color-b: var(--sf-pink-2b);
+}
+
+.stripe-pink-3 {
+  --sf-stripe--color-r: var(--sf-pink-3r);
+  --sf-stripe--color-g: var(--sf-pink-3g);
+  --sf-stripe--color-b: var(--sf-pink-3b);
+}
+
+.stripe-pink-4 {
+  --sf-stripe--color-r: var(--sf-pink-4r);
+  --sf-stripe--color-g: var(--sf-pink-4g);
+  --sf-stripe--color-b: var(--sf-pink-4b);
+}
+
+.stripe-pink-5 {
+  --sf-stripe--color-r: var(--sf-pink-5r);
+  --sf-stripe--color-g: var(--sf-pink-5g);
+  --sf-stripe--color-b: var(--sf-pink-5b);
+}
+
+.stripe-pink-6 {
+  --sf-stripe--color-r: var(--sf-pink-6r);
+  --sf-stripe--color-g: var(--sf-pink-6g);
+  --sf-stripe--color-b: var(--sf-pink-6b);
+}
+
+.stripe-pink-7 {
+  --sf-stripe--color-r: var(--sf-pink-7r);
+  --sf-stripe--color-g: var(--sf-pink-7g);
+  --sf-stripe--color-b: var(--sf-pink-7b);
+}
+
+.stripe-pink-8 {
+  --sf-stripe--color-r: var(--sf-pink-8r);
+  --sf-stripe--color-g: var(--sf-pink-8g);
+  --sf-stripe--color-b: var(--sf-pink-8b);
+}
+
+.stripe-pink-9 {
+  --sf-stripe--color-r: var(--sf-pink-9r);
+  --sf-stripe--color-g: var(--sf-pink-9g);
+  --sf-stripe--color-b: var(--sf-pink-9b);
+}
