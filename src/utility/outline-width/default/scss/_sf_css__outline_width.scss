@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// OUTLINE
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Outline Width
+        @each $outline-width-name, $outline-width-value in $outline-width-array {
+            .#{$infix}outline-#{$outline-width-name} {
+                outline-width:var(--sf-#{$outline-width-value});
+            }
+        }
+    }
+// }

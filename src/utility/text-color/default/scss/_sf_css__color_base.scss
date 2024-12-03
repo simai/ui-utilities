@@ -1,0 +1,15 @@
+// SIMAI Framework
+// https://simai.io
+
+// BASE COLOR
+
+// @include layer-priority(utility,default) {
+    $infix:'';
+
+    @each $modifier-name, $var-name in $color-base-array {
+        .#{$infix}color-#{$modifier-name} {
+            color: var(--sf-#{$var-name})
+        }
+    }
+
+// }

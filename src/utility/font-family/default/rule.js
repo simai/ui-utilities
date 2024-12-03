@@ -1,0 +1,1 @@
+SF.RuleLoader['font-family/default'] = /sans|serif|mono/;

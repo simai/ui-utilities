@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// SCROLL DECORATION
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Scroll Width
+        @each $scroll-backdrop-width-name, $scroll-backdrop-width-value in $scroll-backdrop-width-array {
+            .#{$infix}scroll-bg-#{$scroll-backdrop-width-name} {
+                --sf-scroll-bg-width: var(--sf-#{$scroll-backdrop-width-value});
+            }
+        }
+    }
+// }

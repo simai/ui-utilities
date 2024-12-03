@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// SVG - WIDTH
+
+$infix: sm;
+
+// @include layer-priority(utility,$infix) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Stroke Width
+        @each $stroke-width-name, $stroke-width-value in $stroke-width-array {
+            .#{$infix}stroke-#{$stroke-width-name} {
+                stroke-width: var(#{$stroke-width-value});
+            }
+        }
+    }
+// }

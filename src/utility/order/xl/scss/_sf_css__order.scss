@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// GRID-FLEX ORDER
+
+// @include layer-priority(utility,xl) {
+    @include breakpoint-media(xl) {
+        $infix: breakpoint-infix(xl, $breakpoint-array);
+
+        // Flex Order
+        @each $order-level, $order-value in $flex-order-array {
+            .#{$infix}order-#{$order-level}{
+                order: #{$order-value};
+            }		
+        }
+    }
+// }

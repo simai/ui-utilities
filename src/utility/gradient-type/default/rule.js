@@ -1,0 +1,1 @@
+SF.RuleLoader['gradient-type/default'] = { regex: /gr-(line|conic)-[2-3]/, mode: 'utility', css: true, relation: [{ name: 'gradient-color-ext/default', mode: 'utility', css: true }] }

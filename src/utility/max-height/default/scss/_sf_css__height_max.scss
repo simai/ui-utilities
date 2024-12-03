@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// SIZE
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Max Height Utilities
+        @each $height-name, $height-value in $height-max-array {
+            .#{$infix}max-h-#{$height-name} {
+                max-height: #{$height-value}
+            }
+        }        
+    }
+// }

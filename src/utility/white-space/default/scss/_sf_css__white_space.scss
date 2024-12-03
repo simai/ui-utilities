@@ -1,0 +1,18 @@
+// SIMAI Framework
+// https://simai.io
+
+// TYPOFRAPHY
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // White Space
+        @each $white-space-name, $white-space-value in $white-space-array {
+            .#{$infix}#{$white-space-name} {
+                white-space: #{$white-space-value};
+            }
+        }
+    }
+// }

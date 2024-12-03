@@ -1,0 +1,18 @@
+// SIMAI Framework
+// https://simai.io
+
+// BACKGROUND
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        @each $bg-repeat-name, $bg-repeat-value in $bg-repeat-array {
+            .#{$infix}bg-#{$bg-repeat-name} {
+                background-repeat: #{$bg-repeat-value};
+            }
+        }
+    }
+// }

@@ -1,0 +1,61 @@
+// SIMAI Framework
+// https://simai.io
+
+// SCROLL PADDING
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+        
+        // Padding size
+        // For size use text size variables
+        // Atention! Text variables have different size for mobile and destop devices
+        @each $size-range-name, $range-array in $size-array {
+            @each $size-name, $size-value in $range-array {
+
+                // MARGIN SETTINGS
+                // for all sides
+                .#{$infix}scroll-p-#{$size-range-name}#{$size-name} {
+                    scroll-padding: var(--sf-#{$size-range-name}#{$size-name});
+                }
+                .-#{$infix}scroll-p-#{$size-range-name}#{$size-name} {
+                    scroll-padding: calc(0rem - var(--sf-#{$size-range-name}#{$size-name}));
+                }
+
+                // for top sides
+                .#{$infix}scroll-pt-#{$size-range-name}#{$size-name} {
+                    scroll-padding-top: var(--sf-#{$size-range-name}#{$size-name});
+                }
+                .-#{$infix}scroll-pt-#{$size-range-name}#{$size-name} {
+                    scroll-padding-top: calc(0rem - var(--sf-#{$size-range-name}#{$size-name}));
+                }
+
+                // for right sides
+                .#{$infix}scroll-pr-#{$size-range-name}#{$size-name} {
+                    scroll-padding-right: var(--sf-#{$size-range-name}#{$size-name});
+                }
+                .-#{$infix}scroll-pr-#{$size-range-name}#{$size-name} {
+                    scroll-padding-right: calc(0rem - var(--sf-#{$size-range-name}#{$size-name}));
+                }
+
+                // for bottom sides
+                .#{$infix}scroll-pb-#{$size-range-name}#{$size-name} {
+                    scroll-padding-bottom: var(--sf-#{$size-range-name}#{$size-name});
+                }
+                .-#{$infix}scroll-pb-#{$size-range-name}#{$size-name} {
+                    scroll-padding-bottom: calc(0rem - var(--sf-#{$size-range-name}#{$size-name}));
+                }
+
+                // for left sides
+                .#{$infix}scroll-pl-#{$size-range-name}#{$size-name} {
+                    scroll-padding-left: var(--sf-#{$size-range-name}#{$size-name});
+                }
+                .-#{$infix}scroll-pl-#{$size-range-name}#{$size-name} {
+                    scroll-padding-left: calc(0rem - var(--sf-#{$size-range-name}#{$size-name}));
+                }
+            }
+        }
+    }
+// }

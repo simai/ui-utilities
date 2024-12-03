@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// Mask Position
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);	
+
+        // Mask Position Utilities
+        @each $mask-position-name, $mask-position-value in $mask-position-array {
+            .#{$infix}mask-#{$mask-position-name} {
+                mask-position: #{$mask-position-value}
+            }
+        }
+    }
+// }

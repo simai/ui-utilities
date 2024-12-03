@@ -1,0 +1,17 @@
+
+// SIMAI Framework
+// https://simai.io
+
+// FLEX JUSTIFY CONTENT
+// @include layer-priority(utility,xl) {
+    @include breakpoint-media(xl) {
+        $infix: breakpoint-infix(xl, $breakpoint-array);
+
+        // Flex Justify Content Utilities
+        @each $flex-justify-content-name, $flex-justify-content-value in $flex-justify-content-array {
+            .#{$infix}content-main-#{$flex-justify-content-name} {
+                justify-content: #{$flex-justify-content-value};
+            }
+        }
+    }
+// }

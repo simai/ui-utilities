@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// COLUMNS
+
+$infix: xl;
+
+// @include layer-priority(utility,$infix) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Column Count
+        @each $column-name, $column-value in $column-array {
+            .#{$infix}column-#{$column-name} {
+                column-count: #{$column-value};
+            }
+        }
+    }
+// }

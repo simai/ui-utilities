@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// ISOLATION
+
+$infix: sm;
+
+// @include layer-priority(utility,$infix) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+        
+        // Utilities for controlling whether an element should explicitly create a new stacking context.
+        @each $isolation-name, $isolation-value in $isolation-array {
+            .#{$infix}#{$isolation-name} {
+                isolation: #{$isolation-value};
+            }
+        }
+    }
+// }

@@ -1,0 +1,15 @@
+// SIMAI Framework
+// https://simai.io
+
+// TEXT DECORATION
+
+$infix:'';
+
+// @include layer-priority(utility,default) {
+    // Text Decoration Thickness
+    @each $thickness-name, $thickness-value in $text-decoration-thickness-array {
+        .#{$infix}decoration-#{$thickness-name} {
+            text-decoration-thickness: #{$thickness-value}
+        }
+    }
+// }

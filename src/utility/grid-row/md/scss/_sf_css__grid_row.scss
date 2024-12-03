@@ -1,0 +1,17 @@
+
+// SIMAI Framework
+// https://simai.io
+
+// GRID - GRID ROW
+// @include layer-priority(utility,md) {
+    @include breakpoint-media(md) {
+        $infix: breakpoint-infix(md, $breakpoint-array);
+
+        // Grid Row Span Utilities
+        @each $grid-row-name, $grid-row-value in $grid-row-array {
+            .#{$infix}grid-row-#{$grid-row-name} {
+                grid-row: #{$grid-row-value};
+            }
+        }
+    }
+// }

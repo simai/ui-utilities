@@ -1,0 +1,33 @@
+// SIMAI Framework
+// https://simai.io
+
+// BASE COLOR
+
+
+// @include layer-priority(utility,default) {
+    $infix: '';
+    $event: 'hover';
+
+    // Ring Color
+    @each $bg-color-name, $bg-color-value in $back-color-array {
+        .#{$infix}bg-#{$bg-color-name} {
+            background-color: var(--sf-#{$bg-color-value});
+        }
+    }
+
+    $event: 'active';
+
+    @each $bg-color-name, $bg-color-value in $back-color-array {
+        .#{$event}\:bg-#{$bg-color-name}:#{$event} {
+            background-color: var(--sf-#{$bg-color-value}-#{$event});
+        }
+    }
+
+    $event: 'hover';
+
+    @each $bg-color-name, $bg-color-value in $back-color-array {
+        .#{$event}\:bg-#{$bg-color-name}:#{$event} {
+            background-color: var(--sf-#{$bg-color-value}-#{$event});
+        }
+    }
+// }

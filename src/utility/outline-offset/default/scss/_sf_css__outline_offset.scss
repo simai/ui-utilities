@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// OUTLINE
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Outline Offset
+        @each $outline-offset-name, $outline-offset-value in $outline-offset-array {
+            .#{$infix}outline-offset-#{$outline-offset-name} {
+                outline-offset:var(--sf-#{$outline-offset-value});
+            }
+        }
+    }
+// }

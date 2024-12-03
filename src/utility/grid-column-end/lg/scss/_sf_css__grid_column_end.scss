@@ -1,0 +1,17 @@
+
+// SIMAI Framework
+// https://simai.io
+
+// GRID - GRID COLUMN END
+// @include layer-priority(utility,lg) {
+    @include breakpoint-media(lg) {
+        $infix: breakpoint-infix(lg, $breakpoint-array);
+
+        // Grid Column end Utilities
+        @each $grid-column-end-name, $grid-column-end-value in $grid-column-end-array {
+            .#{$infix}col-end-#{$grid-column-end-name} {
+                grid-column-end: #{$grid-column-end-value};
+            }
+        }
+    }
+// }

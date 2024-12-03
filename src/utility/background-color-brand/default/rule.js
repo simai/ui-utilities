@@ -1,0 +1,1 @@
+SF.RuleLoader['background-color-brand/default'] = /bg-(fb|fb-messenger|youtube|whatsapp|instagram|wechat|tiktok|sinaweibo|qq|telegram|snapchat|kuaishou|qzone|pinterest|twitter|reddit|quora|skype|msteams|linkedin|vk|viber|vimeo|ok|tumblr|behance|soundcloud)/

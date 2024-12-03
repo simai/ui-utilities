@@ -1,0 +1,25 @@
+// SIMAI Framework
+// https://simai.io
+
+// CONTAINER
+
+// A component for fixing an element's width to the current breakpoint.
+
+.container {
+    width: var(--sf-breakpoint-xl);
+    padding-left: var(--sf-space-5);
+    padding-right: var(--sf-space-5);
+}
+// @include layer-priority(utility,xl) {
+    // @each $breakpoint-key, $breakpoint-value in $breakpoint-array {
+    //     @include breakpoint-media(xl) {
+    //         $infix: breakpoint-infix(xl, $breakpoint-array);
+            
+    //         // Adaptive container
+    //         .#{$infix}container {
+    //             width: 100%;
+    //             max-width: map-get($breakpoint-array, xl);
+    //         }
+    //     }
+    // }
+// }

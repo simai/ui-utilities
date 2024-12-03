@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// FLEX - FLEX BASIS
+
+// @include layer-priority(utility,md) {
+    @include breakpoint-media(md) {
+        $infix: breakpoint-infix(md, $breakpoint-array);
+
+        // Fixed Basic Additional Utilities
+        @for $k from 1 through 100 {
+            .#{$infix}basis-#{$k} {
+                flex-basis: #{$k + '%'};
+            }
+        }
+    }
+// }

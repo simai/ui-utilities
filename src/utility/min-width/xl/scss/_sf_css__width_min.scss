@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// SIZE
+
+// @include layer-priority(utility,xl) {
+    @include breakpoint-media(xl) {
+        $infix: breakpoint-infix(xl, $breakpoint-array);
+
+        // Min Width Utilities
+        @each $with-name, $with-value in $with-min-array {
+            .#{$infix}min-w-#{$with-name}{
+                min-width: #{$with-value}
+            }
+        }
+    }
+// }

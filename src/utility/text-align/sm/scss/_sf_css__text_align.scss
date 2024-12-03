@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// TEXT ALIGN
+
+// @include layer-priority(utility,sm) {
+    @include breakpoint-media(sm) {
+        $infix: breakpoint-infix(sm, $breakpoint-array);
+
+        // Text Align
+        @each $text-align-name, $text-align-value in $text-align-array {
+            .#{$infix}text-#{$text-align-name} {
+                text-align: #{$text-align-value};
+            }
+        }
+    }
+// }

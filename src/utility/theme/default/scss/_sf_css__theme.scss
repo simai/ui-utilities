@@ -1,0 +1,20 @@
+// SIMAI Framework
+// https://simai.io
+
+// THEME COLOR CSS
+
+.theme-light, .theme-light ::after, .theme-light ::before {
+    @each $color-token-name, $color-token-range in $theme-light-array {
+        @each $color-name, $color-token-var in $color-token-range {
+            --sf-#{$color-name}: var(--sf-#{$color-token-var});
+        }
+    }
+}
+
+.theme-dark, .theme-dark ::after, .theme-dark ::before {
+    @each $color-token-name, $color-token-range in $theme-dark-array {
+        @each $color-name, $color-token-var in $color-token-range {
+            --sf-#{$color-name}: var(--sf-#{$color-token-var});
+        }
+    }
+}

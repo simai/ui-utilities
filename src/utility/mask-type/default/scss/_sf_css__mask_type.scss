@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// Mask Type
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);	
+
+        // Mask Type Utilities
+        @each $mask-type-name, $mask-type-value in $mask-type-array {
+            .#{$infix}mask-type-#{$mask-type-name} {
+                mask-type: #{$mask-type-value};
+            }
+        }
+    }
+// }

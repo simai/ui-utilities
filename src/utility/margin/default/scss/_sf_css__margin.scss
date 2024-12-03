@@ -1,0 +1,57 @@
+// SIMAI Framework
+// https://simai.io
+
+// MARGIN
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+        
+        // Margin and padding size
+        // For size use text size variables
+        // Atention! Text variables have different size for mobile and destop devices
+        @each $size in $space-size-array {
+            
+            // MARGIN SETTINGS
+            // for all sides
+            .#{$infix}m-#{$size} {
+                margin: var(--sf-space-#{$size});
+            }
+            .-#{$infix}m-#{$size} {
+                margin: calc(0rem - var(--sf-space-#{$size}));
+            }
+
+            // for top sides
+            .#{$infix}m-top-#{$size} {
+                margin-top: var(--sf-space-#{$size});
+            }
+            .-#{$infix}m-top-#{$size} {
+                margin-top: calc(0rem - var(--sf-space-#{$size}));
+            }
+
+            // for right sides
+            .#{$infix}m-right-#{$size} {
+                margin-right: var(--sf-space-#{$size});
+            }
+            .-#{$infix}m-right-#{$size} {
+                margin-right: calc(0rem - var(--sf-space-#{$size}));
+            }
+
+            // for bottom sides
+            .#{$infix}m-bottom-#{$size} {
+                margin-bottom: var(--sf-space-#{$size});
+            }
+            .-#{$infix}m-bottom-#{$size} {
+                margin-bottom: calc(0rem - var(--sf-space-#{$size}));
+            }
+
+            // for left sides
+            .#{$infix}m-left-#{$size} {
+                margin-left: var(--sf-space-#{$size});
+            }
+            .-#{$infix}m-left-#{$size} {
+                margin-left: calc(0rem - var(--sf-space-#{$size}));
+            }
+        }	
+    }
+// }

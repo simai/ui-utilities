@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// BOX
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+  @include breakpoint-media($infix) {
+      $infix: breakpoint-infix($infix, $breakpoint-array);
+
+      // Box Sizing
+      // Utilities for controlling how the browser should calculate an element's total size.
+    @each $box-sizing-name, $box-sizing-value in $box-sizing-array {
+      .#{$infix}box-#{$box-sizing-name} {
+        box-sizing: #{$box-sizing-value};
+      }
+    }
+  }
+// }

@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// INTERACTIVITY
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+	@include breakpoint-media($infix) {
+		$infix: breakpoint-infix($infix, $breakpoint-array);
+
+		// Appearance
+		@each $appearance-name, $appearance-value in $appearance-array {
+			.#{$infix}appearance-#{$appearance-name} {
+				appearance:#{$appearance-value};
+			}
+		}
+	}
+// }

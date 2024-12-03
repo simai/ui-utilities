@@ -1,0 +1,67 @@
+// SIMAI Framework
+// https://simai.io
+
+// BORDER RADIUS
+
+$infix: sm;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        @each $radius-level, $radius-value in $border-radius-array {
+            
+            // All sides
+            .#{$infix}radius-#{$radius-level} {
+                border-radius: var(--sf-radius-#{$radius-value});
+            }
+        }
+        
+        @each $radius-level, $radius-value in $border-radius-array {
+
+            // Top left and right sides
+            .#{$infix}radius-top-#{$radius-level} {
+                border-top-left-radius: var(--sf-radius-#{$radius-value});
+                border-top-right-radius: var(--sf-radius-#{$radius-value});
+            }
+
+            // Bottom left and right sides
+            .#{$infix}radius-bottom-#{$radius-level} {
+                border-bottom-left-radius: var(--sf-radius-#{$radius-value});
+                border-bottom-right-radius: var(--sf-radius-#{$radius-value});
+            }
+
+            // Left top and bottom sides
+            .#{$infix}radius-left-#{$radius-level} {
+                border-top-left-radius: var(--sf-radius-#{$radius-value});
+                border-bottom-left-radius: var(--sf-radius-#{$radius-value});
+            }
+
+            // Right top and bottom sides
+            .#{$infix}radius-right-#{$radius-level} {
+                border-top-right-radius: var(--sf-radius-#{$radius-value});
+                border-bottom-right-radius: var(--sf-radius-#{$radius-value});
+            }
+
+            // Top left side
+            .#{$infix}radius-top-left-#{$radius-level} {
+                border-top-left-radius: var(--sf-radius-#{$radius-value});
+            }
+
+            // Top right side
+            .#{$infix}radius-top-right-#{$radius-level} {
+                border-top-right-radius: var(--sf-radius-#{$radius-value});
+            }	
+
+            // Bottom left side
+            .#{$infix}radius-bottom-left-#{$radius-level} {
+                border-bottom-left-radius: var(--sf-radius-#{$radius-value});
+            }
+
+            // Bottom right side
+            .#{$infix}radius-bottom-right-#{$radius-level} {
+                border-bottom-right-radius: var(--sf-radius-#{$radius-value});
+            }		
+        }
+    }
+// }

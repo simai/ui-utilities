@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// Offset
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);	
+
+        // Offset Utilities
+        @each $offset-name, $offset-value in $offset-array {
+            .#{$infix}offset-#{$offset-name} {
+                margin-left: #{$offset-value}
+            }
+        }
+    }
+// }

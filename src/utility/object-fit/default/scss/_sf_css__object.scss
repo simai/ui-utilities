@@ -1,0 +1,18 @@
+// SIMAI Framework
+// https://simai.io
+
+// OBJECT
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+        
+        // Object Fit
+        // Utilities for controlling how a replaced element's content should be resized.
+        @each $object-fit-name, $object-fit-value in $object-fit-array {
+            .#{$infix}object-#{$object-fit-name} {
+                object-fit: #{$object-fit-value};
+            } 
+        }
+    }
+// }

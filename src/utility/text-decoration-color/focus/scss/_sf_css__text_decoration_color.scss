@@ -1,0 +1,15 @@
+// SIMAI Framework
+// https://simai.io
+
+// TEXT DECORATION
+
+$infix: focus;
+
+// @include layer-priority(utility,$infix) {
+    // Text Decoration Color
+    @each $color-name, $color-value in $text-decoration-color-array {
+        .#{$infix}\:decoration-#{$color-name}:#{$infix} {
+            text-decoration-color: var(--sf-#{$color-value})
+        }
+    }
+// }

@@ -1,0 +1,18 @@
+
+// SIMAI Framework
+// https://simai.io
+
+// FLEX ALIGN CONTENT
+
+// @include layer-priority(utility,sm) {
+    @include breakpoint-media(sm) {
+        $infix: breakpoint-infix(sm, $breakpoint-array);
+
+        // Flex Align Content Utilities
+        @each $flex-align-content-name, $flex-align-content-value in $flex-align-content-array {
+            .#{$infix}content-cross-#{$flex-align-content-name} {
+                align-content: #{$flex-align-content-value};
+            }
+        }
+    }
+// }

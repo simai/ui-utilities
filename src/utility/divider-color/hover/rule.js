@@ -1,0 +1,1 @@
+SF.RuleLoader['divider-color/hover'] = /hover\:divider-(primary|secondary|tertiary|success|warning|error|outline|transparent|current)/

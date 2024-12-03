@@ -1,0 +1,14 @@
+// SIMAI Framework
+// https://simai.io
+
+// USER SELECT
+
+$infix: '';
+
+// @include layer-priority(utility,default) {
+    @each $user-select-name, $user-select-value in $user-select-array {
+        .#{$infix}select-#{$user-select-name} {
+            user-select: #{$user-select-value};
+        }
+    }
+// }

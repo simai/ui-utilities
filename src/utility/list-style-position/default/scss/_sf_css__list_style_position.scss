@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// TYPOFRAPHY
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+        
+        // List Style Position
+        @each $list-style-position-name, $list-style-position-value in $list-style-position-array {
+            .#{$infix}list-#{$list-style-position-name} {
+                list-style-position: #{$list-style-position-value};
+            }
+        }
+    }
+// }

@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// SCROLL
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+	@include breakpoint-media($infix) {
+		$infix: breakpoint-infix($infix, $breakpoint-array);
+
+		// Resize
+		@each $snap-name, $snap-value in $scroll-snap-type-array {
+			.#{$infix}snap-#{$snap-name} {
+				scroll-snap-type: #{$snap-value};
+			}
+		}
+	}
+// }

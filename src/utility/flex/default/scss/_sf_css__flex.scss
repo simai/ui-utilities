@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// FLEX
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Flex Wrap Utilities
+        @each $flex-name, $flex-value in $flex-array {
+            .#{$infix}flex-#{$flex-name} {
+                flex: #{$flex-value};
+            }
+        }
+    }
+// }

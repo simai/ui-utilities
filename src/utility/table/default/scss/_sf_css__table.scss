@@ -1,0 +1,61 @@
+// SIMAI Framework
+// https://simai.io
+
+// TABLE
+
+$prefix: --sf-table-;
+
+// @include layer-priority(utility,default) {
+
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+
+    tbody, td, tfoot, th, thead, tr {
+        border-color: inherit;
+        border-style: solid;
+        border-width: 0;
+    }
+
+    .table {
+        #{$prefix}color: #{$table-color};
+        //#{$prefix}bg: #{$table-bg};
+        #{$prefix}border-color: #{$table-border-color};
+        #{$prefix}accent-bg: #{$table-accent-bg};
+        #{$prefix}stripe-color: #{$table-stripe-color};
+        #{$prefix}stripe-bg: #{$table-stripe-bg};
+        #{$prefix}active-color: #{$table-active-color};
+        #{$prefix}active-bg: #{$table-active-bg};
+        #{$prefix}hover-color: #{$table-hover-color};
+        #{$prefix}hover-bg: #{$table-hover-bg};
+
+        width: 100%;
+        margin-bottom: 1rem;
+        color: var(#{$prefix}color);
+        vertical-align: top;
+        border-color: var(#{$prefix}border-color);
+        text-align: left;
+
+        > :not(caption) > * > * {
+            padding: $table-cell-padding-y $table-cell-padding-x;
+            //background-color: var(#{$prefix}bg);
+            border-bottom-width: var(--sf-px);
+            box-shadow: inset 0 0 0 9999px var(#{$prefix}accent-bg);
+        }
+
+        > tbody {
+            vertical-align: inherit;
+        }
+
+        > thead {
+            vertical-align: bottom;
+        }
+    }
+
+    .table-sm {
+        > :not(caption) > * > * {
+            padding: $table-cell-padding-y-sm $table-cell-padding-x-sm;
+        }
+    }
+// }

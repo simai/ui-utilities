@@ -1,0 +1,1 @@
+SF.RuleLoader['gradient-color/default'] = /gr[1-3]-(transparent|current|surface|on-surface|primary|secondary|tertiary|disable|success|warning|error)/

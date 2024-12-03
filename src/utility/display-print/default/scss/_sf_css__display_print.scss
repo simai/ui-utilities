@@ -1,0 +1,20 @@
+// SIMAI Framework
+// https://simai.io
+
+// DISPLAY
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Display Print
+        @each $display-print-name, $display-print-value in $display-print-array {
+            .#{$infix}print-#{$display-print-name} {
+                display: none;
+                @media print { display:#{$display-print-value}; }
+            }
+        }
+    }
+// }

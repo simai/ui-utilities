@@ -1,0 +1,1 @@
+SF.RuleLoader['transition-duration/default'] = /duration-/

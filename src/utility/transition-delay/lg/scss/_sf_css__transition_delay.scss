@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// TRANSITION
+
+$infix: lg;
+
+// @include layer-priority(utility,$infix) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Transition Detay
+        @each $transition-delay-name, $transition-delay-value in $transition-delay-array {
+            .#{$infix}delay-#{$transition-delay-name} {
+                transition-delay:#{$transition-delay-value};
+            }
+        }
+    }
+// }

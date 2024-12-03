@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// BREAK
+
+$infix: md;
+
+// @include layer-priority(utility,$infix) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Break After
+        @each $break-after-name, $break-after-value in $break-after-array {
+            .#{$infix}break-after-#{$break-after-name} {
+                break-after:#{$break-after-value};
+            }
+        }
+    }
+// }

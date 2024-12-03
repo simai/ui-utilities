@@ -1,0 +1,14 @@
+// SIMAI Framework
+// https://simai.io
+
+// TOUCH ACTION
+
+$infix: '';
+
+// @include layer-priority(utility,default) {
+    @each $touch-action-name, $touch-action-value in $touch-action-array {
+        .#{$infix}touch-#{$touch-action-name} {
+            touch-action: #{$touch-action-value};
+        }
+    }
+// }

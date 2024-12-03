@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// BOX
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Box Decoration Break
+        @each $box-decoration-break-name, $box-decoration-break-value in $box-decoration-break-array {
+            .#{$infix}box-#{$box-decoration-break-name} {
+                box-decoration-break:#{$box-decoration-break-value};
+            }
+        }
+    }
+// }

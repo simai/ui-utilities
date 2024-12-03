@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// FONT SMOOTHING
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        //
+        @each $smoothing-name, $smoothing-value-array in $font-smoothing-array {
+            .#{$infix}#{$smoothing-name} {
+                @each $style-name, $smoothing-value in $smoothing-value-array {
+                    #{$style-name}: #{$smoothing-value};
+                }
+            }
+        }
+    }
+// }

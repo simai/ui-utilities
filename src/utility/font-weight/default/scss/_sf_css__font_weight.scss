@@ -1,0 +1,24 @@
+// SIMAI Framework
+// https://simai.io
+
+// TYPOFRAPHY
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Font Weight Named
+        @each $font-weight-named-name, $font-weight-named-value in $font-weight-named-array {
+            .#{$infix}#{$font-weight-named-name} {
+                font-weight: #{$font-weight-named-value};
+            }
+        }
+
+        // Font Weight
+        @each $font-weight-name, $font-weight-value in $font-weight-array {
+            .#{$infix}weight-#{$font-weight-name} {
+                font-weight: #{$font-weight-value};
+            }
+        }        
+    }
+// }

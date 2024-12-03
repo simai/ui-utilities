@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// Mask Repeat
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);	
+
+        // Mask Repeat Utilities
+        @each $mask-repeat-name, $mask-repeat-value in $mask-repeat-array {
+            .#{$infix}mask-#{$mask-repeat-name} {
+                mask-repeat: #{$mask-repeat-value}
+            }
+        }
+    }
+// }

@@ -1,0 +1,31 @@
+// SIMAI Framework
+// https://simai.io
+
+// GRID GAP
+
+// @include layer-priority(utility,lg) {
+    @include breakpoint-media(lg) {
+        $infix: breakpoint-infix(lg, $breakpoint-array);
+
+        // Gap Size
+        // For size use text size variables
+        // Atention! Text variables have different size for mobile and destop devices
+        //@each $size in map-get($space-size-device-array, desktop) {
+        @each $size in $space-size-array {
+            // Gap all sides
+            .#{$infix}gap-#{$size} {
+                gap: var(--sf-space-#{$size});
+            }
+
+            // Gap for X
+            .#{$infix}gap-x-#{$size} {
+                column-gap: var(--sf-space-#{$size});
+            }     
+
+            // Gap for Y
+            .#{$infix}gap-y-#{$size} {
+                row-gap: var(--sf-space-#{$size});
+            }   
+        }	
+    }
+// }

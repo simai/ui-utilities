@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// Mask Size
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);	
+
+        // Mask Size Utilities
+        @each $mask-size-name, $mask-size-value in $mask-size-array {
+            .#{$infix}mask-#{$mask-size-name} {
+                mask-size: #{$mask-size-value}
+            }
+        }
+    }
+// }

@@ -1,0 +1,1 @@
+SF.RuleLoader['border-style/default'] = /border-((dotted|dashed|solid|double|hidden|inset|none)|((x|y|left|right|top|bottom)-(dotted|dashed|solid|double|hidden|inset|none)))/

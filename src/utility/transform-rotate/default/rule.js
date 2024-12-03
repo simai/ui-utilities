@@ -1,0 +1,1 @@
+SF.RuleLoader['transform-rotate/default'] = /rotate-/

@@ -1,0 +1,42 @@
+// SIMAI Framework
+// https://simai.io
+
+// PADDING
+
+// @include layer-priority(utility,sm) {
+    @include breakpoint-media(sm) {
+        $infix: breakpoint-infix(sm, $breakpoint-array);
+        
+        // Margin and padding size
+        // For size use text size variables
+        // Atention! Text variables have different size for mobile and destop devices
+        @each $size in $space-size-array {
+
+            // PADDING SETTINGS
+            // for all sides
+            .#{$infix}p-#{$size} {
+                padding: var(--sf-space-#{$size});
+            }
+
+            // for top sides
+            .#{$infix}p-top-#{$size} {
+                padding-top: var(--sf-space-#{$size});
+            }
+
+            // for right sides
+            .#{$infix}p-right-#{$size} {
+                padding-right: var(--sf-space-#{$size});
+            }
+
+            // for bottom sides
+            .#{$infix}p-bottom-#{$size} {
+                padding-bottom: var(--sf-space-#{$size});
+            }    
+            
+            // for left sides
+            .#{$infix}p-left-#{$size} {
+                padding-left: var(--sf-space-#{$size});
+            }
+        }	
+    }
+// }

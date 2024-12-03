@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// DIVIDER
+
+// Divider Color
+$divider-color-array:(
+    'transparent': 'transparent',
+    'current': 'current',
+    'outline': 'outline',
+    'primary': 'outline-primary',
+    'secondary': 'outline-secondary',
+    'tertiary': 'outline-tertiary',
+    'error': 'outline-error',
+    'warning': 'outline-warning',
+    'success': 'outline-success',
+);

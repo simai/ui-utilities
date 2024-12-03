@@ -1,0 +1,27 @@
+// SIMAI Framework
+// https://simai.io
+
+// TYPOGRAPHY
+
+// @include layer-priority(utility,default) {
+	// headings sizes
+	h1 {font-size: var(--sf-text--size-6); line-height: var(--sf-text--height-6);}
+	h2 {font-size: var(--sf-text--size-5); line-height: var(--sf-text--height-5);}
+	h3 {font-size: var(--sf-text--size-4); line-height: var(--sf-text--height-4);}
+	h4 {font-size: var(--sf-text--size-3); line-height: var(--sf-text--height-3);}
+	h5 {font-size: var(--sf-text--size-2); line-height: var(--sf-text--height-2);}
+	h6 {font-size: var(--sf-text--size-1); line-height: var(--sf-text--height-1);}
+
+	// heading settings 
+	// h1, h2, h3, h4, h5, h6 {
+	// 	margin-block-start: var(--sf-text--size-5);
+	// 	font-weight: var(--sf-heading--font-weight);
+	// 	font-family: var(--sf-heading--font-family);
+	// 	font-style: var(--sf-heading--font-style);
+	// }
+
+	// Content settings
+	// h1, h2, h3, h4, h5, h6 {
+	// 	margin-block-end:var(--sf-text--margin-end-default);
+	// }
+// }

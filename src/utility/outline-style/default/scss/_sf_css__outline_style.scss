@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// OUTLINE
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Outline Style
+        @each $outline-style-name, $outline-style-value in $outline-style-array {
+            .#{$infix}outline-#{$outline-style-name} {
+                outline-style:#{$outline-style-value};
+            }
+        }
+    }
+// }

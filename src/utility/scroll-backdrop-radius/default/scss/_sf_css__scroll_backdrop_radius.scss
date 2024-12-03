@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// SCROLL DECORATION
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Scroll Radius
+        @each $scroll-backdrop-radius-name, $scroll-backdrop-radius-value in $scroll-backdrop-radius-array {
+            .#{$infix}scroll-bg-radius-#{$scroll-backdrop-radius-name} {
+                --sf-scroll-radius: var(--sf-#{$scroll-backdrop-radius-value});
+            }
+        }
+    }
+// }

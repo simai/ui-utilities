@@ -1,0 +1,40 @@
+// SIMAI Framework
+// https://simai.io
+
+// BACKDROP
+
+$backdrop-filter-all: '';
+$event: hover;
+$infix: breakpoint-infix(xs, $breakpoint-array);
+
+@each $blur-name, $blur-value in $backdrop-filter-blur-array {
+    $backdrop-filter-all: '#{$backdrop-filter-all}.#{$infix}#{$event}\\:backdrop-blur#{$blur-name}:#{$event},';
+}
+
+$infix: xs;
+
+// @include layer-priority(utility,$event) {
+    @include breakpoint-media($infix) {
+        #{$backdrop-filter-all} {
+            --sf-backdrop-blur: ;
+            --sf-backdrop-brightness: ;
+            --sf-backdrop-contrast: ;
+            --sf-backdrop-grayscale: ;
+            --sf-backdrop-hue-rotate: ;
+            --sf-backdrop-invert: ;
+            --sf-backdrop-opacity: ;
+            --sf-backdrop-saturate: ;
+            --sf-backdrop-sepia: ;
+            backdrop-filter: var(--sf-backdrop-blur) var(--sf-backdrop-brightness) var(--sf-backdrop-contrast) var(--sf-backdrop-grayscale) var(--sf-backdrop-hue-rotate) var(--sf-backdrop-invert) var(--sf-backdrop-opacity) var(--sf-backdrop-saturate) var(--sf-backdrop-sepia);
+        }
+
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Blur
+        @each $blur-name, $blur-value in $backdrop-filter-blur-array {
+            .#{$infix}#{$event}\:backdrop-blur#{$blur-name}:#{$event} {
+                --sf-backdrop-blur: blur(var(--sf-blur-#{$blur-value}));
+            }
+        }
+    }
+// }

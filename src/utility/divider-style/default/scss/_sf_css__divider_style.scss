@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// DIVIDER
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Divider Style
+        @each $divider-style-name, $divider-style-value in $divider-style-array {
+            .#{$infix}divider-#{$divider-style-name} >:not([hidden])~:not([hidden]) {
+                border-style:#{$divider-style-value};
+            }
+        }
+    }
+// }

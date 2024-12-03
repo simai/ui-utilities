@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// Mask Composite
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);	
+
+        // Mask Composite Utilities
+        @each $mask-composite-name, $mask-composite-value in $mask-composite-array {
+            .#{$infix}mask-#{$mask-composite-name}{
+                mask-composite: #{$mask-composite-value}
+            }
+        }
+    }
+// }

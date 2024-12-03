@@ -1,0 +1,14 @@
+// SIMAI Framework
+// https://simai.io
+
+// COURSOR CSS
+
+$infix: '.';
+
+// @include layer-priority(utility,default) {
+    @each $cursor-name, $cursor-value in $cursor-array {
+        #{$infix}cursor-#{$cursor-name} {
+            cursor: #{$cursor-value};
+        }
+    }
+// }

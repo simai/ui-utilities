@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// VERTICAL ALIGN
+
+// @include layer-priority(utility,default) {
+	@include breakpoint-media(xs) {
+		$infix: breakpoint-infix(xs, $breakpoint-array);
+
+		// Vertical align for inline elements
+		@each $vertical-align-name, $vertical-align-value in $vertical-align-array {
+			.#{$infix}text-#{$vertical-align-name} {
+				vertical-align: #{$vertical-align-value};
+			}
+		}
+	}
+// }

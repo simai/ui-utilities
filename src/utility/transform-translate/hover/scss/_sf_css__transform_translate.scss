@@ -1,0 +1,33 @@
+// SIMAI Framework
+// https://simai.io
+
+// TRANSFORM
+
+$event: hover;
+$infix: xs;
+
+// @include layer-priority(utility,$event) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Transform Translate
+        @each $transform-translate-name, $transform-translate-value in $transform-translate-array {
+
+            .#{$infix}#{$event}\:translate-x-#{$transform-translate-name}:#{$event} {
+                transform: translateX(var(--sf-#{$transform-translate-value}));
+            }
+
+            .#{$infix}#{$event}\:translate-y-#{$transform-translate-name}:#{$event} {
+                transform: translateX(var(--sf-#{$transform-translate-value}));
+            }
+
+            .-#{$infix}#{$event}\:translate-x-#{$transform-translate-name}:#{$event} {
+                transform: translateX(calc(0rem - var(--sf-#{$transform-translate-value})));
+            }
+
+            .-#{$infix}#{$event}\:translate-y-#{$transform-translate-name}:#{$event} {
+                transform: translateY(calc(0rem - var(--sf-#{$transform-translate-value})));
+            }
+        }
+    }
+// }

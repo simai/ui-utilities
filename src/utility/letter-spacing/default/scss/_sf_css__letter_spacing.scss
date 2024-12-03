@@ -1,0 +1,18 @@
+// SIMAI Framework
+// https://simai.io
+
+// LETTER SPACING
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Letter Spacing
+        @each $letter-spacing-name, $letter-spacing-value in $letter-spacing-array {
+            .#{$infix}tracking-#{$letter-spacing-name} {
+                letter-spacing: var(--sf-text--tracking-#{$letter-spacing-name});
+            }
+        }
+    }
+// }

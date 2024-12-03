@@ -1,0 +1,1 @@
+SF.RuleLoader['border-color/default'] = /border-(primary|secondary|tertiary|info|success|warning|transparent|current|outline|error)/

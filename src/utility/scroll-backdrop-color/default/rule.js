@@ -1,0 +1,1 @@
+SF.RuleLoader['scroll-backdrop-color/default'] = /scroll-bg-(surface|primary|secondary|tertiary|transparent|current)/

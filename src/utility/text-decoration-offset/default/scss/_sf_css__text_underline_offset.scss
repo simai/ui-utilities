@@ -1,0 +1,15 @@
+// SIMAI Framework
+// https://simai.io
+
+// TEXT UNDERLINE
+
+$infix:'';
+
+// @include layer-priority(utility,default) {
+    // Text Underline Offset
+    @each $offset-name, $offset-value in $text-underline-offset-array {
+        .#{$infix}decoration-offset-#{$offset-name} {
+            text-underline-offset: #{$offset-value}
+        }
+    }
+// }

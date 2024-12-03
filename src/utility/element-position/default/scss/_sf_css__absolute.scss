@@ -1,0 +1,45 @@
+// SIMAI Framework
+// https://simai.io
+
+// ELEMENT POSITION
+
+// Set layer piority
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        @each $absolute-value-name, $absolute-value-value in $absolute-value-array {
+            @each $absolute-side in $absolute-side-array {
+                .#{$infix}#{$absolute-side}-#{$absolute-value-name}{
+                    #{$absolute-side}: #{$absolute-value-value};
+                }
+            }
+        }
+        
+        // Inset
+        .#{$infix}inset-0 {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        // Inset to X axes
+        .#{$infix}inset-x-0 {
+            right: 0;
+            left: 0;
+        }
+
+        // Inset to Y axes
+        .#{$infix}inset-y-0 {
+            top: 0;
+            bottom: 0;
+        }
+
+        // Center position
+        .#{$infix}inset-center {
+            left: 50%;
+            top: 50%;
+        }
+    }
+// }

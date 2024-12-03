@@ -1,0 +1,1 @@
+SF.RuleLoader['caret-color/default'] = /caret-(transparent|current|on-surface|primary|secondary|tertiary|success|warning|error)/

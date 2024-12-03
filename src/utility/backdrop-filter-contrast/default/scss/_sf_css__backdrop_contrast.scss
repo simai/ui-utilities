@@ -1,0 +1,41 @@
+// SIMAI Framework
+// https://simai.io
+
+// BACKDROP
+
+
+$backdrop-filter-all: '';
+
+$infix: breakpoint-infix(xs, $breakpoint-array);
+
+@each $contrast-name, $contrast-value in $backdrop-filter-contrast-array {
+    $backdrop-filter-all: '#{$backdrop-filter-all}.#{$infix}backdrop-contrast-#{$contrast-name},';
+}
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        #{$backdrop-filter-all} {
+            --sf-backdrop-blur: ;
+            --sf-backdrop-brightness: ;
+            --sf-backdrop-contrast: ;
+            --sf-backdrop-grayscale: ;
+            --sf-backdrop-hue-rotate: ;
+            --sf-backdrop-invert: ;
+            --sf-backdrop-opacity: ;
+            --sf-backdrop-saturate: ;
+            --sf-backdrop-sepia: ;
+            backdrop-filter: var(--sf-backdrop-blur) var(--sf-backdrop-brightness) var(--sf-backdrop-contrast) var(--sf-backdrop-grayscale) var(--sf-backdrop-hue-rotate) var(--sf-backdrop-invert) var(--sf-backdrop-opacity) var(--sf-backdrop-saturate) var(--sf-backdrop-sepia);
+        }
+
+        // Contrast
+        @each $contrast-name, $contrast-value in $backdrop-filter-contrast-array {
+            .#{$infix}backdrop-contrast-#{$contrast-name} {
+                --sf-backdrop-contrast: contrast(#{$contrast-value});
+            }
+        }
+    }
+// }

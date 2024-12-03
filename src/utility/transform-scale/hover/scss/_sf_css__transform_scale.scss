@@ -1,0 +1,20 @@
+// SIMAI Framework
+// https://simai.io
+
+// TRANSFORM
+
+$event: hover;
+$infix: xs;
+
+// @include layer-priority(utility,$event) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Transform Scale
+        @each $transform-scale-name, $transform-scale-value in $transform-scale-array {
+            .#{$infix}#{$event}\:scale-#{$transform-scale-name}:#{$event} {
+                transform: #{$transform-scale-value};
+            }
+        }
+    }
+// }

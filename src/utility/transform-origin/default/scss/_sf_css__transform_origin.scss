@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// TRANSFORM
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Transform Origin
+        @each $transform-origin-name, $transform-origin-value in $transform-origin-array {
+            .#{$infix}origin-#{$transform-origin-name} {
+                transform-origin:#{$transform-origin-value};
+            }
+        }
+    }
+// }

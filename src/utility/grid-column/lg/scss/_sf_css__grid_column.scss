@@ -1,0 +1,17 @@
+
+// SIMAI Framework
+// https://simai.io
+
+// GRID - GRID COLUMN
+// @include layer-priority(utility,lg) {
+    @include breakpoint-media(lg) {
+        $infix: breakpoint-infix(lg, $breakpoint-array);
+
+        // Grid Column Span Utilities
+        @each $grid-column-name, $grid-column-value in $grid-column-array {
+            .#{$infix}col-#{$grid-column-name} {
+                grid-column: #{$grid-column-value};
+            }
+        }
+    }
+// }

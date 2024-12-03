@@ -1,0 +1,15 @@
+// SIMAI Framework
+// https://simai.io
+
+// SHADOW
+
+// @include layer-priority(utility,default) {
+    
+    // Box Shadow
+    @each $shadow-name, $shadow-value in $shadow-array {
+        .shadow-#{$shadow-name} {
+            --sf-shadow--level-ratio: #{$shadow-value};
+        }
+    }
+
+// }

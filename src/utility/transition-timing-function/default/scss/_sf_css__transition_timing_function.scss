@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// TRANSITION
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Transition Timing Function
+        @each $transition-timing-function-name, $transition-timing-function-value in $transition-timing-function-array {
+            .#{$infix}ease-#{$transition-timing-function-name} {
+                transition-timing-function:#{$transition-timing-function-value};
+            }
+        }
+    }
+// }

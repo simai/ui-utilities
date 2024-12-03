@@ -1,0 +1,20 @@
+// SIMAI Framework
+// https://simai.io
+
+// FONT SIZE
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Font size
+        // For size use text size variables
+        // Atention! Text variables have different size for mobile and destop devices
+        @each $size in $font-size-array {
+            .#{$infix}text-#{$size} {
+                font-size: var(--sf-text--size-#{$size});
+                line-height: var(--sf-text--height-#{$size}); 
+            }
+        }
+    }
+// }

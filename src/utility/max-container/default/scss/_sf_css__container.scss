@@ -1,0 +1,14 @@
+// SIMAI Framework
+// https://simai.io
+
+// CONTAINER - MAX CONTAINER
+
+$breakpoint: 'desktop';
+@include breakpoint-device-media($breakpoint) {
+    @each $m-container-var, $m-container-value in map-get($container-max-array, $breakpoint) {
+        // --sf-container-#{$m-container-var}--size-max: var(--sf-#{$m-container-value});
+        .max-container-#{$m-container-var} .container {
+            max-width: var(--sf-container-#{$m-container-value}--size-max);
+        }
+    }
+}

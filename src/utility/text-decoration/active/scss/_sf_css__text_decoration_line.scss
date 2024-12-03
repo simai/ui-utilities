@@ -1,0 +1,15 @@
+// SIMAI Framework
+// https://simai.io
+
+// TEXT DECORATION
+
+$infix:active;
+
+// @include layer-priority(utility,$infix) {
+    // Text Decoration Line
+    @each $line-name, $line-value in $text-decoration-line-array {
+        .#{$infix}\:#{$line-name}:#{$infix} {
+            text-decoration-line: #{$line-value}
+        }
+    }
+// }

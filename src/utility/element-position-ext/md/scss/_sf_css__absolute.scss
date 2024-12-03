@@ -1,0 +1,28 @@
+// SIMAI Framework
+// https://simai.io
+
+// ELEMENT POSITION EXT (SIZE SYSTEM)
+
+// @include layer-priority(utility,md) {
+    @include breakpoint-media(md) {
+        $infix: breakpoint-infix(md, $breakpoint-array);
+
+        // Utilities for controlling the placement of positioned elements.
+        @each $size-range-name, $range-array in $size-array {
+            @each $size-name, $size-value in $range-array {
+            
+                // Absolute Side Position 
+                @each $absolute-side in $absolute-side-array {
+                    // Positive Value
+                    .#{$infix}#{$absolute-side}-#{$size-range-name}#{$size-name}{
+                        #{$absolute-side}: var(--sf-#{$size-range-name}#{$size-name});
+                    }
+                    // Negative Value
+                    .-#{$infix}#{$absolute-side}-#{$size-range-name}#{$size-name}{
+                        #{$absolute-side}: calc(0rem - var(--sf-#{$size-range-name}#{$size-name}));
+                    }
+                }
+            }
+        }
+    }
+// }

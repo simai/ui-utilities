@@ -1,0 +1,20 @@
+// SIMAI Framework
+// https://simai.io
+
+// FILTER
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Opacity
+        @each $opacity-name, $opacity-value in $filter-opacity-array {
+            .#{$infix}opacity-#{$opacity-name} {
+                $value: 'opacity(#{$opacity-value})';
+                filter: #{$value};
+            }
+        }
+    }
+// }

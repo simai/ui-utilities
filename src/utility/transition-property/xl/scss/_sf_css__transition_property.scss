@@ -1,0 +1,24 @@
+// SIMAI Framework
+// https://simai.io
+
+// TRANSITION
+
+$infix: xl;
+
+// @include layer-priority(utility,$infix) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Transition Property
+        @each $transition-property-name, $transition-property-value in $transition-property-array {
+            .#{$infix}transition#{$transition-property-name} {
+                transition-property:#{$transition-property-value};
+
+                @if $transition-property-value != none {
+                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                    transition-duration: 150ms;
+                }
+            }
+        }
+    }
+// }

@@ -1,0 +1,25 @@
+// SIMAI Framework
+// https://simai.io
+
+// TYPOFRAPHY
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Text Overflow
+        @each $text-overflow-name,$text-overflow-value in $text-overflow-array {
+            .#{$infix}t-#{$text-overflow-name} {
+                text-overflow: #{$text-overflow-value};
+            }
+        }
+        
+        // Text Overflow
+        // Text trancate
+        .#{$infix}truncate {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+// }

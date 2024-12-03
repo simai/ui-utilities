@@ -1,0 +1,19 @@
+// SIMAI Framework
+// https://simai.io
+
+// INTERACTIVITY
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+	@include breakpoint-media($infix) {
+		$infix: breakpoint-infix($infix, $breakpoint-array);
+
+		// Pointer Events
+		@each $pointer-events-name, $pointer-events-value in $pointer-events-array {
+			.#{$infix}pointer-event-#{$pointer-events-name} {
+				pointer-events:#{$pointer-events-value};
+			}
+		}
+	}
+// }

@@ -1,0 +1,18 @@
+
+// SIMAI Framework
+// https://simai.io
+
+// FLEX SHRINK
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Flex Shrink Utilities
+        @each $flex-shrink-name, $flex-shrink-value in $flex-shrink-array {
+            .#{$infix}#{$flex-shrink-name} {
+                flex-shrink: #{$flex-shrink-value};
+            }
+        }
+    }
+// }

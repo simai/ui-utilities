@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// Mask Origin
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);	
+
+        // Mask Origin Utilities
+        @each $mask-origin-name, $mask-origin-value in $mask-origin-array {
+            .#{$infix}mask-origin-#{$mask-origin-name}{
+                mask-origin: #{$mask-origin-value}
+            }
+        }
+    }
+// }

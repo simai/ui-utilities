@@ -1,0 +1,15 @@
+// SIMAI Framework
+// https://simai.io
+
+// SCROLL
+
+$infix: '';
+
+// Scroll Slider Color
+// @include layer-priority(utility,default) {
+    @each $scroll-slider-color-name, $scroll-slider-color-value in $scroll-slider-color-array {
+        .#{$infix}scroll-#{$scroll-slider-color-name} {
+            --sf-scroll-bg-thumb: var(--sf-#{$scroll-slider-color-value});
+        }
+    }
+// }

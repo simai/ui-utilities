@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// TYPOFRAPHY
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Font style
+        @each $font-style-name, $font-style-value in $font-style-array {
+            .#{$infix}#{$font-style-name} {
+                font-style: #{$font-style-value};
+            }
+        }
+    }
+// }

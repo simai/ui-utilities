@@ -1,0 +1,20 @@
+// SIMAI Framework
+// https://simai.io
+
+// TRANSFORM
+
+$event: hover;
+$infix: xs;
+
+// @include layer-priority(utility,$event) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Transform Rotate
+        @each $transform-rotate-name, $transform-rotate-value in $transform-rotate-array {
+            .#{$infix}#{$event}\:rotate-#{$transform-rotate-name}:#{$event} {
+                transform: rotate(#{$transform-rotate-value}deg);
+            }
+        }
+    }
+// }

@@ -1,0 +1,17 @@
+
+// SIMAI Framework
+// https://simai.io
+
+// GRID - GRID TEMPLATE ROWS
+// @include layer-priority(utility,md) {
+    @include breakpoint-media(md) {
+        $infix: breakpoint-infix(md, $breakpoint-array);
+
+        // Grid Rows Template
+        @each $grid-template-rows-name, $grid-template-rows-value in $grid-template-rows-array {
+            .#{$infix}grid-row-#{$grid-template-rows-name} {
+                grid-template-rows: #{$grid-template-rows-value};
+            }
+        }
+    }
+// }

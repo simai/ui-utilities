@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// TEXT INDENT
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media(xs) {
+        $infix: breakpoint-infix(xs, $breakpoint-array);
+
+        // Text Indent
+        @each $text-indent-name, $text-indent-value in $text-indent-array {
+            .#{$infix}indent-#{$text-indent-name} {
+                text-indent: var(--sf-#{$text-indent-value});
+            }
+        }
+    }
+// }

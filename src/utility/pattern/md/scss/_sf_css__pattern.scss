@@ -1,0 +1,18 @@
+// SIMAI Framework
+// https://simai.io
+
+// PATTERN
+
+$infix: md;
+
+// @include layer-priority(utility,$infix) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        @each $pattern_number, $pattern_value in $background-pattern-array {
+            .#{$infix}pattern-#{$pattern_number} {
+                background: $pattern_value;
+            }
+        }
+    }
+// }

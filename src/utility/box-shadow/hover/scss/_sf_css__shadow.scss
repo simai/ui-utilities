@@ -1,0 +1,39 @@
+// SIMAI Framework
+// https://simai.io
+
+// SHADOW
+
+// $shadowAllClass: '';
+// $infix: hover;
+
+// @each $shadow-name, $shadow-value in $shadow-colored-array {
+//     $shadowAllClass: '#{$shadowAllClass}.#{$infix}\\:shadow-#{$shadow-name}:#{$infix},';
+// }
+
+// @include layer-priority(utility,$infix) {
+    
+    // #{$shadowAllClass} {
+    //     --sf-ring-offset-shadow: 0 0 #0000;
+    //     --sf-ring-shadow: 0 0 #0000;
+    //     --sf-shadow: 0 0 #0000;
+    //     --sf-shadow-colored: 0 0 #0000;
+    // }
+    
+    // // Box Shadow
+    // @each $shadow-name, $shadow-value in $shadow-colored-array {
+    //     .#{$infix}\:shadow-#{$shadow-name}:#{$infix} {
+    //         --sf-shadow: #{$shadow-value};
+    //     }
+    // }
+
+    // #{$shadowAllClass} {
+    //     box-shadow: var(--sf-ring-offset-shadow,0 0 #0000), var(--sf-ring-shadow, 0 0 #0000), var(--sf-shadow);
+    // }
+// }
+
+// Box Shadow
+@each $shadow-name, $shadow-value in $shadow-array {
+    .hover\:shadow-#{$shadow-name}:hover {
+        --sf-shadow--level-ratio: #{$shadow-value};
+    }
+}

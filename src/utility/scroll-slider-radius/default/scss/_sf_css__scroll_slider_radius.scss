@@ -1,0 +1,22 @@
+// SIMAI Framework
+// https://simai.io
+
+// SCROLL DECORATION
+
+$infix: xs;
+
+// @include layer-priority(utility,default) {
+    @include breakpoint-media($infix) {
+        $infix: breakpoint-infix($infix, $breakpoint-array);
+
+        // Scroll Width
+        @each $scroll-slider-radius-name, $scroll-slider-radius-value in $scroll-slider-radius-array {
+            .#{$infix}scroll-radius-#{$scroll-slider-radius-name} {
+                
+                &::-webkit-scrollbar-thumb {
+                    border-radius: var(--sf-#{$scroll-slider-radius-value});
+                }
+            }
+        }
+    }
+// }

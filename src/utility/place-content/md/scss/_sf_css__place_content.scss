@@ -1,0 +1,17 @@
+// SIMAI Framework
+// https://simai.io
+
+// FLEX PLACE CONTENT
+
+// @include layer-priority(utility,md) {
+    @include breakpoint-media(md) {
+        $infix: breakpoint-infix(md, $breakpoint-array);
+
+        // Place Content
+        @each $place-content-name, $place-content-value in $place-content-array {
+            .#{$infix}content-#{$place-content-name} {
+                place-content: #{$place-content-value};
+            }
+        }
+    }
+// }

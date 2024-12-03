@@ -1,0 +1,12 @@
+// SIMAI Framework
+// https://simai.io
+
+// SVG - STROKE
+
+$infix:'';
+
+@each $modifier-name, $var-name in $stroke-color-array {
+    .#{$infix}stroke#{$modifier-name} {
+        stroke: var(--sf-#{$var-name})
+    }
+}

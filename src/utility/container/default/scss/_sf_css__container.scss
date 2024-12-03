@@ -1,0 +1,22 @@
+// SIMAI Framework
+// https://simai.io
+
+// CONTAINER
+
+
+// Adaptive container
+.container {
+    width: 100%;
+    padding-left: var(--sf-space-1);
+    padding-right: var(--sf-space-1);
+}
+
+@each $container-key, $container-value in $container-array {
+    @include breakpoint-media($container-key) {
+        .container {
+            width: var(--sf-breakpoint-#{$container-key});
+            padding-left: var(--sf-space-#{$container-value});
+            padding-right: var(--sf-space-#{$container-value});
+        }
+    }
+}
